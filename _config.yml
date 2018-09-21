@@ -1,0 +1,17 @@
+title: IBM API Connect Test and Monitor
+email: test@atm.ibm.com
+description: IBM API Connect Test and Monitor
+keywords: IBM, docker, container, devops, applications, development, iteration, microservices, cloud, ICP, services, rapid, integrated
+baseurl: ""
+url: "https://pages.github.ibm.com/atm/docs/"
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: ['docPages']

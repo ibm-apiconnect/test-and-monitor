@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{% include head.html %}
+
+<body class="{{ page.abc }}">
+
+{% include header.html homepath="." %}
+<section aria-label="main section" class="main">
+    <div class="header-bg">
+        <div class="container doc-container-header">
+            <div class="row full-width">
+                <div class="col-lg-12">
+                    <div class="header-doc-intro">
+                        <div class="header-doc-main ">{{ page.title }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="container main-content document-content">{{ content }}</div>
+        <div class="sidebar-content">{% include sidebar.html %}</div>
+    </div>
+</section>
+
+
+{% include footer.html %}
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

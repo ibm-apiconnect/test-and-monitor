@@ -1,0 +1,51 @@
+<script>
+    digitalData = {
+        customName1: "source",
+        customValue1: "Landing page",
+        page: {
+            customName1: "source",
+            customValue1: "Landing page",
+            subCategory: "dddd",
+            pageInfo: {
+                pageID: 'Landing page - {% if page.title %}{{ page.title | append: ' - ' | append: site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}',
+                productTitle: 'Test & Monitor',
+                customName1: "source",
+                customValue1: "Landing page",
+                analytics: {
+                    category: 'Offering Interface',
+                    customName1: "source",
+                    customValue1: "Landing page",
+                }
+            }
+        }
+    };
+</script>
+
+
+<head>
+
+    <title>{% if page.title %}{{ page.title | append: ' - ' |
+        append: site.title | escape }}{% else %}{{ site.title | escape }}{%
+        endif %}</title>
+    <meta name="description"
+          content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta charset="utf-8">
+    <meta name="keywords" content="{{ page.keywords | default: site.keywords | strip_html | normalize_whitespace | truncate: 160 | escape }}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous" />
+    <link
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet prefetch" />
+
+    <link rel='stylesheet prefetch'
+          href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css' />
+
+    <link href="css/styles.css" rel="stylesheet prefetch" />
+    <link href="css/ibm-type.min.css" rel="stylesheet prefetch" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+</head>

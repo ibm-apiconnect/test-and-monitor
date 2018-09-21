@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="716" height="561" viewBox="0 0 716 561">
+  <defs>
+    <linearGradient id="rapid_iteration-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#273C48"/>
+      <stop offset="100%" stop-color="#111C23"/>
+    </linearGradient>
+    <rect id="rapid_iteration-b" width="720" height="540"/>
+    <filter id="rapid_iteration-a" width="105.4%" height="107.8%" x="-1.5%" y="-1.9%" filterUnits="objectBoundingBox">
+      <feOffset dx="12" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#000" filter="url(#rapid_iteration-a)" xlink:href="#rapid_iteration-b"/>
+    <use fill="url(#rapid_iteration-c)" xlink:href="#rapid_iteration-b"/>
+    <path stroke="#16A888" stroke-width="1.3" d="M360,462 C464.934102,462 550,376.934102 550,272 C550,167.065898 464.934102,82 360,82"/>
+    <path stroke="#16A888" stroke-width="1.3" d="M360 462L370.8 459 370.8 465 360 462zM360 82L370.8 85 370.8 79 360 82z"/>
+    <path stroke="#16A888" d="M356 406C431.110726 406 492 345.110726 492 270M356 406L366.8 403 366.8 409 356 406z"/>
+    <path stroke="#16A888" d="M492,270 L489,280.8 L495,280.8 L492,270 Z"/>
+    <path stroke="#16A888" d="M182 279C182 372.612265 257.887735 448.5 351.5 448.5M182 279L185 289.8 179 289.8 182 279z" opacity=".425"/>
+    <path stroke="#16A888" d="M373 64C251.497355 64 153 162.721213 153 284.5M373 64L362.2 67 362.2 61 373 64z" opacity=".613"/>
+    <path stroke="#16A888" d="M153,284.5 L156,273.7 L150,273.7 L153,284.5 Z" opacity=".613"/>
+    <path stroke="#FFF" stroke-linecap="square" stroke-width="2" d="M24,80 L53.0778533,80 M72.163587,80 L116.43981,80 M138.706114,80 L160,80" opacity=".223"/>
+    <path stroke="#FFF" stroke-linecap="square" d="M75,473 L99.5878906,473 M115.726562,473 L153.166016,473 M171.994141,473 L190,473" opacity=".167"/>
+    <path stroke="#FFF" stroke-linecap="square" stroke-width=".6" d="M24 267L39 267M48 267L70 267M82 267L93 267M630 350L645 350M654 350L676 350M688 350L699 350" opacity=".167"/>
+    <path stroke="#FFF" stroke-linecap="square" d="M35 433L59.5878906 433M75.7265625 433L113.166016 433M131.994141 433L150 433M458 51L494 51M518 51L573 51M601 51L628 51M79 52L103.587891 52M119.726562 52L157.166016 52M175.994141 52L194 52M573 160L597.587891 160M613.726562 160L651.166016 160M669.994141 160L688 160M596 24L620.587891 24M636.726562 24L674.166016 24M692.994141 24L711 24" opacity=".167"/>
+    <path stroke="#FFF" stroke-linecap="square" stroke-width="2" d="M67,25 L117.199219,25 L172.679688,25 M233.144531,25 L297,25" opacity=".181"/>
+    <path stroke="#FFF" stroke-linecap="square" stroke-width="2" d="M481 472L550.832031 472 644.207031 472M677.292969 472L711 472M254 516L323.832031 516 417.207031 516M450.292969 516L484 516" opacity=".13"/>
+    <path stroke="#FFF" stroke-linecap="square" stroke-width="2.2" d="M556,81 C578.368229,81 594.582292,81 604.642187,81 M644.776562,81 L673.316406,81 L694,81" opacity=".279"/>
+    <path stroke="#FFF" stroke-linecap="square" stroke-width="1.4" d="M612,488 L660.114316,488 M683.613844,488 L716,488" opacity=".549"/>
+    <path stroke="#FFF" stroke-linecap="square" stroke-width="2" d="M35,453 L124.281838,453 M167.888008,453 L227.984375,453" opacity=".344" transform="matrix(1 0 0 -1 0 907)"/>
+    <circle cx="360" cy="268" r="166" stroke="#16A888" stroke-dasharray="3"/>
+    <path stroke="#979797"/>
+    <g fill="#DB2663" fill-opacity=".42" stroke="#FFF" opacity=".904" transform="translate(306 207)">
+      <polygon points="54.5 0 108.627 31.25 108.627 93.75 54.5 125 .373 93.75 .373 31.25"/>
+      <polyline points="54 126 54 63.333 108 32"/>
+      <polyline points="1 32 55 63.333 55 126"/>
+    </g>
+  </g>
+</svg>

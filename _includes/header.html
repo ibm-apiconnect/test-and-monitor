@@ -1,0 +1,27 @@
+<header>
+
+    <nav class="navbar navbar-transparent header-zindex999" >
+        <div class="container">
+
+            <div class="navbar-header homeicon-div">
+                <button id="navbar_responsive_button" class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a id="navbar_home_link" class="navbar-brand" href="{{ include.homepath }}" aria-label="Home">
+                    <span>IBM API Connect Test and Monitor</span></a>
+
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right text-right">
+                    <li><a href="document" {% if page.type == 'document' %} class="active-button" {% endif %}>Documentation</a></li>
+                    <li><a href="https://github.com/ibm-apiconnect/test-and-monitor/issues">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>

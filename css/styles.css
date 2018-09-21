@@ -1,0 +1,880 @@
+.anchorjs-link {
+  transition: all .25s linear;
+}
+*:hover > .anchorjs-link {
+  margin-left: -1.125em !important;
+}
+
+.header-main h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+a#navbar_home_link span {
+  display: block;
+}
+a#navbar_home_link:hover span,
+a#navbar_home_link:focus span,
+a#navbar_home_link:active span{
+  color: white;
+}
+
+/* preload image */
+#preload_area {
+  background-image: url(../images/microclimate_header.jpg);
+  background-image: url(../images/microclimate_header992.jpg);
+  background-image: url(../images/microclimate_header768.jpg);
+  background-image: url(../images/microclimate_header1200.jpg);
+  width: 0px;
+  height: 0px;
+  display: inline;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+/* Video player popup */
+.closeBtn {
+  position: absolute;
+  z-index: 0;
+  top: -24px;;
+  right: -24px;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: #fff;
+}
+
+.videoContainer {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 1;
+  border-radius: 4px;
+}
+
+.videoPlayer {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  max-width: 66%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+}
+
+.homeicon-div {
+  min-width: 200px;
+}
+
+.dark-bg {
+  opacity: 1;
+}
+
+.video-iframe {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 8px solid #fff;
+  border-radius: 4px;
+}
+/* end video player popup */
+
+/* new version */
+.main {
+  font-family: ibm-plex-sans;
+}
+
+.beta-padding {
+  padding-left: 6px;
+  padding-right: 6px !important;
+}
+h1 {
+  font-size: 24px;
+  line-height: 1.5em;
+}
+
+.selling-points-text-left h2 {
+  text-align: left;
+}
+
+.selling-points-text-right h2 {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+.show-xs {
+  display: none;
+}
+
+.hide-xs {
+  display: unset;
+}
+
+#homepage #navbar_home_link {
+  display: none;
+}
+
+#homepage #navbar_home_link_beta {
+  display: none;
+}
+.header-zindex999 {
+  z-index: 999;
+}
+
+.navbar a {
+  color: white;
+}
+.beta {
+  content: "";
+  padding-bottom: 2px;
+  padding-right: 2px;
+  border-radius: 10px;
+  background-color: #0869ff;
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  font-size: 100%;
+}
+.navbar-header a:hover:after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  margin-left: -7px;
+  height: 50%;
+  border-radius: 20px;
+  background-color: #0869ff;
+  z-index: -10;
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  transition: all .1s linear;
+  width: 295px;
+}
+
+.selling-points-text-left p, .selling-points-text-right p {
+  font-weight: bold;
+}
+
+.main-content {
+  margin-top: 400px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent !important;
+}
+
+.active-button:after, .nav>li>a:hover:after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  border-radius: 20px;
+  background-color: #0869ff;
+  z-index: -10;
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+.active-button-roguecloud:after{
+  background-color: #337ab7;
+}
+.navbar a:hover {
+  color: #0869ff;
+  text-decoration: none;
+}
+
+.header-bg {
+  background-image: url('../images/microclimate_header.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0px;
+}
+
+.footer-bg {
+  margin-top: 120px;
+  background-image: url('../images/footer.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+
+.full-width {
+  width: 100%
+}
+
+.doc-container-header {
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-container {
+  height: 300px;
+  display: flex;
+  color: white;
+  align-items: flex-end;
+}
+
+.header-intro {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+.header-doc-intro {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+.home_beta {
+  color: white;
+  top: 5px;
+  left: -10px;
+}
+.header-doc-main {
+  font-size: 46pt;
+}
+
+a.download-link:hover {
+  background-color: #CC0648;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.download-link-container {
+  margin-top: 30px;
+}
+
+.page-content {
+  display: flex;
+}
+
+.document-content {
+  width: calc( 100% - 290px );
+}
+
+.sidebar-content {
+  width: 250px;
+  font-size: 14px;
+  margin-top: 420px;
+}
+
+.document-content h1, .document-content h2 {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.document-content img {
+  max-width: 100%;
+}
+
+a.download-link, a.download-link:visited, a.download-link:active, a.download-link:focus
+{
+  display: inline-block;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0869ff;
+  border-radius: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 8px;
+  text-align: center;
+  transition: background-color .2s;
+  width: 220px;
+}
+
+.header-button-spacer {
+  width: 48px;
+  display: inline-block;
+}
+
+.value-props {
+  margin: auto;
+  width: 840px;
+  color: #787A7C;
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 1.6em;
+}
+
+.main-content a,
+.sidebar a
+{
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.selling-points {
+  margin-top: 80px;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.selling-points-img {
+  height: 333px;
+}
+
+.workspace-img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+.selling-points-text-left {
+  padding-right: 140px;
+  padding-left: 60px;
+  font-size: 16px;
+}
+
+.selling-points-text-right {
+  text-align: right;
+  padding-right: 60px;
+  font-size: 16px;
+  padding-left: 140px
+}
+
+.selling-points-row {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+}
+
+.video_cell {
+  padding-top: 50px;
+  padding-left: 50px;
+  font-size: 18px;
+}
+
+.resources-row p {
+  font-size: 1.8em;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.document-content h1 {
+  font-size: 26pt;
+}
+
+.document-content h2 {
+  font-size: 24px;
+}
+
+.document-content h3 {
+  font-size: 22px;
+}
+
+.document-content h4 {
+  font-size: 20px;
+}
+
+.main-content {
+  margin-top: 350px;
+}
+
+.document-content {
+  margin-top: 420px;
+}
+ol.assertComponents {
+  list-style-type: lower-roman
+}
+/* Large Devices, Wide Screens */
+@media ( max-width : 1200px) {
+
+  .beta {
+    font-size: 90%;
+  }
+  .doc-container-header {
+    height: 300px;
+  }
+  .main-content {
+    margin-top: 250px;
+  }
+  .document-content {
+    margin-top: 310px;
+  }
+  .header-doc-main {
+    font-size: 38pt;
+  }
+  .document-content h1, .document-content h2 {
+    padding-top: 40px;
+  }
+  .document-content h1 {
+    font-size: 24pt;
+  }
+  .document-content h2 {
+    font-size: 22px;
+  }
+  .document-content h3 {
+    font-size: 20px;
+  }
+  .document-content h4 {
+    font-size: 18px;
+  }
+  .header-bg {
+    background-image: url('../images/microclimate_header1200.jpg');
+    height: 300px;
+  }
+  .selling-points {
+    margin-top: 60px;
+  }
+  .header-main img {
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  .selling-points-img {
+    height: 257px;
+  }
+  .value-props {
+    width: 760px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+  .header-main {
+
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: bold;
+  }
+  .header-intro-content {
+
+  }
+  h1 {
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+  .header-intro {
+    margin-top: 65px;
+  }
+  a.download-link, a.download-link:visited, a.download-link:active, a.download-link:focus
+  {
+    font-size: 16px;
+    border-radius: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 180px;
+  }
+  .footer-container {
+    height: 200px;
+  }
+  .footer-bg {
+    margin-top: 200px;
+    height: 200px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media ( max-width : 992px) {
+  .header-bg {
+    background-image: url('../images/microclimate_header992.jpg');
+    height: 250px;
+  }
+  .document-content h1 {
+    font-size: 22pt;
+  }
+  .document-content h2 {
+    font-size: 20px;
+  }
+  .document-content h3 {
+    font-size: 18px;
+  }
+  .document-content h4 {
+    font-size: 16px;
+  }
+  .doc-container-header {
+    height: 250px;
+  }
+  .header-doc-main {
+    font-size: 30pt;
+  }
+  .main-content {
+    margin-top: 200px;
+  }
+  .document-content {
+    margin-top: 250px;
+  }
+  .header-main img {
+    height: 30px;
+    margin-bottom: 15px;
+  }
+  .selling-points {
+    margin-top: 50px;
+  }
+  .selling-points-img {
+    height: 230px;
+  }
+  .value-props {
+    width: 600px;
+    font-size: 1.4em;
+    line-height: 1.4em;
+  }
+  .header-main {
+
+  }
+  .download-link-container {
+    margin-top: 15px;
+  }
+  .header-intro-content {
+
+  }
+  .header-intro {
+    margin-top: 60px;
+  }
+  .workspace-img {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .selling-points-text-right {
+    text-align: right;
+    padding-right: 55px;
+    padding-left: 60px;
+  }
+  .selling-points-text-left {
+    padding-left: 55px;
+    padding-right: 60px;
+  }
+  a.download-link, a.download-link:visited, a.download-link:active, a.download-link:focus
+  {
+    font-size: 15px;
+    border-radius: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 160px;
+  }
+  .selling-points-row {
+    font-size: 1.1em;
+  }
+  .resources-row p {
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 60px;
+  }
+  .footer-container {
+    height: 150px;
+  }
+  .footer-bg {
+    margin-top: 150px;
+    height: 150px;
+  }
+}
+/* show mobile icon earlier because our menu is too long */
+@media (max-width: 991px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-collapse.collapse.in {display: block !important; }
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in{
+    display:block !important;
+  }
+  #navbar {
+    position: relative;
+    width: 100%;
+    z-index: 9999;
+  }
+  .navbar-toggle .icon-bar {
+    background-color: #0869ff !important;
+  }
+  .navbar-toggle.collapsed .icon-bar {
+    background-color: #0869ff !important;
+  }
+}
+
+/* Small Devices, Tablets */
+@media ( max-width : 768px) {
+  .beta {
+    font-size: 80%;
+  }
+  .header-main img {
+    height: 24px;
+  }
+  .document-content h1 {
+    font-size: 20pt;
+  }
+  .document-content h2 {
+    font-size: 18px;
+  }
+  .document-content h3 {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  .document-content h4 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .active-button:after {
+    content: none;
+  }
+  #navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+  }
+  .navbar-toggle .icon-bar {
+    background-color: #0869ff !important;
+  }
+  .navbar-toggle.collapsed .icon-bar {
+    background-color: #0869ff !important;
+  }
+  .doc-container-header {
+    height: 200px;
+  }
+  .document-content h1, h2 {
+    padding-top: unset;
+  }
+  .header-doc-main {
+    font-size: 26pt;
+  }
+  .show-xs {
+    display: unset;
+  }
+  .hide-xs {
+    display: none;
+  }
+  .selling-points-row {
+    display: unset;
+    align-items: unset
+  }
+  .header-bg {
+    background-image: url('../images/microclimate_header768.jpg');
+    height: 200px;
+  }
+  .main-content {
+    margin-top: 200px;
+  }
+  .selling-points {
+    margin-top: 20px;
+  }
+  .selling-points-img {
+    height: 250px;
+    text-align: center;
+  }
+  .value-props {
+    width: 400px;
+    font-size: 1em;
+    line-height: 1.4em;
+  }
+  .header-main {
+
+  }
+  .header-intro-content {
+    font-size: 16px;
+  }
+  .header-intro {
+    margin-top: 20px;
+  }
+  .workspace-img {
+    padding-left: unset;
+    padding-right: unset;
+  }
+  .selling-points-text-right {
+    text-align: center;
+    padding-right: unset;
+    margin-top: 20px;
+  }
+  .selling-points-text-left {
+    padding-left: unset;
+    text-align: center;
+    margin-top: 20px;
+  }
+  a.download-link, a.download-link:visited, a.download-link:active, a.download-link:focus
+  {
+    font-size: 10px;
+    border-radius: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 120px;
+  }
+  .selling-points-img {
+    height: 200px;
+  }
+  .selling-points-text-left h2 {
+    text-align: center;
+  }
+  .selling-points-text-right h2 {
+    text-align: center;
+  }
+  .selling-points-text-left {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .workspace-img {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .selling-points-text-right {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  h1 {
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  .download-link-container {
+    margin-top: 10px;
+  }
+  .header-button-spacer {
+    width: 18px;
+  }
+  .selling-points-row {
+    font-size: 1em;
+  }
+  .resources-row p {
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .video_cell {
+    padding-top: 20px;
+    padding-left: 100px;
+    font-size: 16px;
+  }
+  .footer-container {
+    height: 100px;
+  }
+  .footer-bg {
+    margin-top: 100px;
+    height: 100px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media ( max-width : 480px) {
+  .beta {
+    font-size: 70%;
+  }
+  .header-doc-main {
+    font-size: 20px;
+  }
+  .header-main {
+
+  }
+  .download-link-container {
+    margin-top: 20px;
+  }
+  a.download-link, a.download-link:visited, a.download-link:active, a.download-link:focus
+  {
+    width: 100px;
+  }
+  .value-props {
+    width: 300px;
+  }
+  .video_cell {
+    padding-left: 50px;
+    font-size: 14px;
+  }
+  .header-intro-content {
+    font-size: 13px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media ( max-width : 360px) {
+  .beta {
+    font-size: 60%;
+  }
+
+}
+
+/* tables */
+table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+table th {
+  font-weight: bold;
+}
+
+table th,
+table td {
+  padding: 6px 13px;
+  border: 1px solid #c6cbd1;
+}
+
+table tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+
+}
+table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+/* code */
+code {
+  color: #333;
+  background-color: #f4f7fb;
+}
