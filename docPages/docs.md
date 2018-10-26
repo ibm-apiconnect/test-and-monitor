@@ -40,7 +40,7 @@ To quickly get up and running, see the following pages:
 # More information
 
 If you can't find what you need here, you can contact us by using the following links:
-- [StackOverflow](https://stackoverflow.com/)
+- [StackOverflow](https://stackoverflow.com/questions/tagged/apiconnect-test-monitor)
 
 <!---
 - [provide link to DevWorks]
