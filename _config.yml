@@ -2,16 +2,22 @@ title: IBM API Connect Test and Monitor
 email: test@atm.ibm.com
 description: IBM API Connect Test and Monitor
 keywords: IBM, docker, container, devops, applications, development, iteration, microservices, cloud, ICP, services, rapid, integrated
-baseurl: ""
-url: "https://pages.github.ibm.com/atm/docs/"
+baseurl: "/"
 twitter_username: jekyllrb
 github_username:  jekyll
+
+# Please change both downloadlink and version for every new release.
+downloadlink: download/microclimate-18.10.zip
+version: "18.10"
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
-
-include: ['docPages']
+exclude: [node_modules]
+collections:
+  documentations:
+    output: true
+  news:
+    output: true

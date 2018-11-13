@@ -1,0 +1,59 @@
+footer { 
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 9%;
+
+    .footer-content {
+        background-color: #00132e;
+        padding: 4rem 2rem;
+
+        @include breakpoint (medium) {
+            padding: 6rem 3rem;
+        }
+
+        @include breakpoint (large) {
+            padding: 5rem;
+        }
+    }
+
+    p {
+        color: #fff;
+        text-align: center;
+    }
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+
+    @include breakpoint (large) {
+        width: 70%;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    img {
+        @include breakpoint (small only) {
+            width: 50%;
+        }
+    }
+}
+
+.logo-slogan {
+    color: #fdfffc;
+    font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 5rem auto;
+
+    @include breakpoint (medium) {
+        font-size: 18px;
+        width: 450px;
+    }
+}

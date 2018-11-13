@@ -1,0 +1,11 @@
+.masthead {
+    @include breakpoint(medium){
+        padding: 36px 0;
+    }
+
+    .logo {
+        @include breakpoint(small only) {
+            padding: 15px 12px;
+        }
+    }
+}

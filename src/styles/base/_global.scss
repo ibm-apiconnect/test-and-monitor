@@ -1,0 +1,77 @@
+body,
+p,
+a {
+    color: $content-color;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: underline;
+    
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+code {
+    background-color: #f0f3f6;
+    color: #00132e;
+    border: none;
+}
+
+main {
+    @include breakpoint(medium){
+        padding: 10px;
+    }
+
+    @include breakpoint(large){
+        padding: 20px;
+    }
+
+    @include breakpoint(xlarge){
+        padding: 40px;
+    }
+    
+    @include breakpoint(xxlarge){
+        padding: 60px;
+    }
+}
+
+.text-cta {
+    font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 5rem 0;
+
+    @include breakpoint(small only){
+        text-align: center;
+    }
+
+    @include breakpoint(medium){
+        font-size: 28px;
+    }
+
+    @include breakpoint(large){
+        font-size: 36px;
+    }
+}

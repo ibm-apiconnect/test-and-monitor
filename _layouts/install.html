@@ -1,0 +1,34 @@
+{% include header.html %}
+<body class="{{ page.permalink }}">
+<div class="hero">
+    {% include masthead.html %}
+    <div class="hero-content">
+        <div class="grid-x">
+            <div class="cell small-10 small-offset-1 large-5 large-offset-7">
+                <div class="hero-title">
+                    Take only what you need.
+                </div>
+                <div class="hero-subtitle">
+                    We hate huge downloads as much as you do so choose the install that is right for you.
+                </div>
+                <!-- /.hero-subtitle -->
+            </div>
+            <!-- /.cell -->
+        </div>
+        <!-- /.grid-x -->
+    </div>
+    <!-- /.hero-content -->
+</div>
+<!-- /.hero -->
+
+<main>
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="cell large-12">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</main>
+    
+{% include footer.html %}

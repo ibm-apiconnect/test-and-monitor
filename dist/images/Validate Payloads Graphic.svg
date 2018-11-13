@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="586px" height="304px" viewBox="0 0 586 304" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Validate Payloads Graphic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="570" height="80"></rect>
+        <filter x="-2.5%" y="-12.5%" width="104.9%" height="135.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="16" y="0" width="64" height="80"></rect>
+        <filter x="-0.8%" y="-0.6%" width="101.6%" height="101.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.898039216   0 0 0 0 0.898039216   0 0 0 0 0.898039216  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="570" height="80"></rect>
+        <filter x="-2.5%" y="-12.5%" width="104.9%" height="135.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="16" y="0" width="64" height="80"></rect>
+        <filter x="-0.8%" y="-0.6%" width="101.6%" height="101.2%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.898039216   0 0 0 0 0.898039216   0 0 0 0 0.898039216  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-9" x="0" y="0" width="570" height="80"></rect>
+        <filter x="-2.5%" y="-12.5%" width="104.9%" height="135.0%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-11" x="16" y="0" width="64" height="80"></rect>
+        <filter x="-0.8%" y="-0.6%" width="101.6%" height="101.2%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.898039216   0 0 0 0 0.898039216   0 0 0 0 0.898039216  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-15" transform="translate(-172.000000, -3146.000000)">
+            <g id="Group-15" transform="translate(180.000000, 2960.000000)">
+                <g id="Validate-Payloads-Graphic" transform="translate(0.000000, 190.000000)">
+                    <g id="Assertion-(Aeq)">
+                        <g id="Rectangle-4">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <text id="assert-equals" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="16" letter-spacing="0.300000012" fill="#A3A4A3">
+                            <tspan x="103" y="60">ASSERT EQUALS</tspan>
+                        </text>
+                        <rect id="fake-text" fill="#D8D8D8" x="104" y="24" width="48" height="8"></rect>
+                        <rect id="fake-text-copy-25" fill="#D8D8D8" x="440" y="24" width="80" height="8"></rect>
+                        <rect id="fake-text-copy-24" fill="#00DDBD" x="168" y="24" width="115" height="8"></rect>
+                        <g id="Rectangle-4">
+                            <use fill="#F8FAFA" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        </g>
+                        <rect id="Rectangle-4" fill="#FC835C" x="0" y="0" width="16" height="80"></rect>
+                        <rect id="Rectangle-4" fill="#FC835C" x="8" y="0" width="8" height="80"></rect>
+                        <text id="Aeq" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-size="20" font-weight="400" line-spacing="28" fill="#FC835C">
+                            <tspan x="30.4" y="47">Aeq</tspan>
+                        </text>
+                        <text id="must-be-equal-to" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#323232">
+                            <tspan x="299" y="32">must be equal to</tspan>
+                        </text>
+                    </g>
+                    <g id="Assertion-(Ae)" transform="translate(0.000000, 104.000000)">
+                        <g id="Rectangle-4">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        </g>
+                        <text id="assert-exists" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="16" letter-spacing="0.300000012" fill="#A3A4A3">
+                            <tspan x="103" y="60">ASSERT EXISTS</tspan>
+                        </text>
+                        <rect id="fake-text-copy-24" fill="#00DDBD" x="105" y="24" width="178" height="8"></rect>
+                        <g id="Rectangle-4">
+                            <use fill="#F8FAFA" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                        </g>
+                        <rect id="Rectangle-4" fill="#FC835C" x="0" y="0" width="16" height="80"></rect>
+                        <rect id="Rectangle-4" fill="#FC835C" x="8" y="0" width="8" height="80"></rect>
+                        <text id="Ae" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-size="20" font-weight="400" line-spacing="28" fill="#FC835C">
+                            <tspan x="36.32" y="47">Ae</tspan>
+                        </text>
+                        <text id="must-exist" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#323232">
+                            <tspan x="299" y="32">must exist</tspan>
+                        </text>
+                    </g>
+                    <g id="Assertion-(Ai)" transform="translate(0.000000, 208.000000)">
+                        <g id="Rectangle-4">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                        </g>
+                        <text id="assert-is" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="16" letter-spacing="0.300000012" fill="#A3A4A3">
+                            <tspan x="103" y="60">ASSERT IS</tspan>
+                        </text>
+                        <rect id="fake-text" fill="#00DDBD" transform="translate(233.500000, 28.000000) scale(-1, 1) translate(-233.500000, -28.000000) " x="184" y="24" width="99" height="8"></rect>
+                        <rect id="fake-text-copy-24" fill="#D8D8D8" transform="translate(136.000000, 28.000000) scale(-1, 1) translate(-136.000000, -28.000000) " x="104" y="24" width="64" height="8"></rect>
+                        <rect id="fake-text-copy-26" fill="#D8D8D8" transform="translate(423.000000, 28.000000) scale(-1, 1) translate(-423.000000, -28.000000) " x="375" y="24" width="96" height="8"></rect>
+                        <g id="Rectangle-4">
+                            <use fill="#F8FAFA" fill-rule="evenodd" xlink:href="#path-11"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                        </g>
+                        <rect id="Rectangle-4" fill="#FC835C" x="0" y="0" width="16" height="80"></rect>
+                        <rect id="Rectangle-4" fill="#FC835C" x="8" y="0" width="8" height="80"></rect>
+                        <text id="Ai" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-size="20" font-weight="400" line-spacing="28" fill="#FC835C">
+                            <tspan x="39.23" y="47">Ai</tspan>
+                        </text>
+                        <text id="must-be" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#323232">
+                            <tspan x="299" y="32">must be</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

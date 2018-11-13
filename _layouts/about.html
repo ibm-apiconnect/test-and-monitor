@@ -1,0 +1,43 @@
+{% include header.html %}
+<body class="{{ page.permalink }}">
+<div role="banner" class="hero">
+    {% include masthead.html %}
+    <div class="hero-content">
+        <div class="grid-x">
+            <div class="cell small-12 medium-6 medium-offset-6 large-5 large-offset-7">
+                <div class="hero-title">
+                    More than a dev environment!
+                </div>
+                <div class="hero-subtitle">
+                    Microclimate has everything you need in one place.
+                </div>
+                <!-- /.hero-subtitle -->
+
+                <div class="hero-cta-buttons">
+                    <div class="grid-x">
+                        <div class="cell small-12">
+                            <a href="gettingstarted#doc" class="button">Get Started Free</a>
+                        </div>
+                        <!-- /.cell -->
+                    </div>
+                    <!-- /.grid-x -->
+                </div>
+                <!-- /.cta-buttons -->
+            </div>
+            <!-- /.cell -->
+        </div>
+        <!-- /.grid-x -->
+    </div>
+    <!-- /.hero-content -->
+</div>
+<!-- /.hero -->
+
+<div role="main" class="grid-container">
+    <div class="grid-x">
+        <div class="cell large-12">
+            {{ content }}
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}

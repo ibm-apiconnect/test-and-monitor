@@ -1,0 +1,64 @@
+{% include header.html %}
+<body class="{{ page.permalink }}">
+<section class="hero">
+    {% include masthead.html %}
+    <div class="hero-content">
+        <div class="grid-x">
+            <div class="cell small-10 small-offset-1 medium-5 medium-offset-7">
+                <div class="hero-title">
+                    Let's work together.
+                </div>
+                <div class="hero-subtitle">
+                    We're just getting started, and we want your help.
+                </div>
+                <!-- /.hero-subtitle -->
+                <div class="hero-cta-buttons">
+                    <div class="grid-x">
+                        <div class="cell small-12">
+                            <a href="#content" class="button" data-smooth-scroll>Learn More</a>
+                        </div>
+                        <!-- /.cell -->
+                    </div>
+                    <!-- /.grid-x -->
+                </div>
+                <!-- /.cta-buttons -->
+            </div>
+            <!-- /.cell -->
+        </div>
+        <!-- /.grid-x -->
+    </div>
+    <!-- /.hero-content -->
+</section>
+<!-- /.hero -->
+
+<main id="content">
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="cell auto">
+                <div class="card_headline">How to reach us</div>
+            </div>
+        </div>
+        <div class="grid-x grid-margin-x" data-equalizer>
+            <div class="cell large-6">
+                <div class="card" data-equalizer-watch>
+                    <div class="card_content">
+                        <div class="card_title">Bugs or recommendations</div>
+                        <p>Found a bug? Have a recommendation on something we can do to improve the Test and Monitor experience? We opened up shop on <a href="https://github.com/ibm-apiconnect/test-and-monitor/issues">GitHub</a>! Help us help you!</p>
+                        <a href="https://github.com/ibm-apiconnect/test-and-monitor/issues" class="button">Go to GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cell large-6">
+                <div class="card" data-equalizer-watch>
+                    <div class="card_content">
+                        <div class="card_title">Need answers?</div>
+                        <p>If you have something you need help with, post your question to <a href="https://stackoverflow.com/tags/apiconnect-test-monitor">Stack Overflow</a> to leverage the minds and experiences of an army of developers…including ours!</p>
+                        <a href="https://stackoverflow.com/tags/apiconnect-test-monitor" class="button">Go to Stack Overflow</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+{% include footer.html %}

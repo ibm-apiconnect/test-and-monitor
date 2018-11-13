@@ -1,0 +1,102 @@
+<!-- this is the template for the api docs -->
+{% include header.html %}
+{% include banner-release-news.html %}
+{% include masthead.html %}
+<body class="doc-template {{ page.permalink }}">
+<div class="grid-x">
+    <div class="sidebar cell small-12 medium-4" data-equalizer>
+        <aside aria-label="sidebar-asid" data-equalizer-watch>
+            <nav aria-label="sidebar" >
+            <ul>
+{% assign rootCollection = site.documentations | group_by: 'parent' %}
+{% for rootItems in rootCollection %}
+  {% assign roots = rootItems.items | sort: 'order' %}
+  {% for root in roots %}
+    {% if root.parent == 'root' %}
+        {% if root.extlink != nil %}
+	      <li class="doc-category"><a href="{{ root.extlink}}">{{ root.title }}</a>
+	    {% else %}
+	      <li class="doc-category"><a {% if root.url == page.url %}class="current-page" {% else %} class="default-link" {% endif %} href="{{ root.url | replace : '/' | append: '#doc' }}">{{ root.title }}</a>
+	    {% endif %}
+	    <!-- Second level by category-->
+	    {% for docsInCatCollection in rootCollection %}
+	      {% assign docs = docsInCatCollection.items | sort: 'order' %}
+	      {% assign ulPrinted1 = false %}
+	      {% for doc in docs %}
+	        {% if doc.parent == root.permalink %}
+	            
+			    {% if ulPrinted1 == false %}
+				  <ul>
+				{% endif %}
+				{% assign ulPrinted1 = true %}
+				{% if doc.extlink != nil %}
+		          <li><a href="{{ doc.extlink}}">{{ doc.title }}</a>
+		        {% else %}
+	              <li><a {% if doc.url == page.url %}class="current-page" {% else %} class="default-link" {% endif %} href="{{ doc.url | replace : '/' | append: '#doc' }}">{{ doc.title }}</a>
+	            {% endif %}
+	            <!-- Third level by category-->
+			    {% for docsInCatCollection2 in rootCollection %}
+			      {% assign docs2 = docsInCatCollection2.items | sort: 'order' %}
+			      {% assign ulPrinted2 = false %}
+			      {% for doc2 in docs2 %}
+			        {% if doc2.parent == doc.permalink %}
+			          {% if ulPrinted2 == false %}
+				        <ul>
+				      {% endif %}
+				      {% assign ulPrinted2 = true %}
+			          <li><a {% if doc2.url == page.url %}class="current-page" {% else %} class="default-link" {% endif %} href="{{ doc2.url | replace : '/' | append: '#doc' }}">{{ doc2.title }}</a></li>
+			        {% endif %}
+			      {% endfor %}
+			      {% if ulPrinted2 == true %}
+				    </ul>
+				  {% endif %}
+			    {% endfor %}
+			    </li>
+			{% endif %}
+	      {% endfor %}
+	      {% if ulPrinted1 == true %}
+				  </ul>
+		  {% endif %}
+	    {% endfor %}
+	    </li>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+</ul>
+            </nav>
+        </aside>
+    </div>
+    <!-- /.cell -->
+    <div class="cell content small-12 medium-8" id="doc" data-equalizer-watch>
+    
+    <!-- Html Elements for Search -->
+    <div class="grid-x">
+      <div class="cell medium-6 large-8"></div>
+      <div role="search" id="search-container" class="cell medium-6 large-4">
+        <input type="text" aria-label="search" id="search-input" placeholder="search keyword...">
+        <ul id="results-container"></ul>
+      </div>
+    </div>
+    
+    <div role="main">
+        {{ content }}
+    </div>
+    </div>
+    <!-- /.cell -->
+</div>
+<!-- /.grid-x -->
+
+{% include footer.html %}
+
+<script>
+$(document).ready(function(){
+	// config search
+    SimpleJekyllSearch({
+    	  searchInput: document.getElementById('search-input'),
+    	  resultsContainer: document.getElementById('results-container'),
+    	  json: 'search.json'
+    	});
+});
+</script>
+

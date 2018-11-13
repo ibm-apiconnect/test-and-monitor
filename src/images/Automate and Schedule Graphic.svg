@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="444px" height="475px" viewBox="0 0 444 475" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Automate and Schedule Graphic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 428 0 428 408 0 408"></polygon>
+        <filter x="-3.3%" y="-2.5%" width="106.5%" height="106.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="7.5 9 0 1.5 1.0605 0.4395 7.5 6.879 13.9395 0.4395 15 1.5"></polygon>
+        <polygon id="path-5" points="7.5 9 0 1.5 1.0605 0.4395 7.5 6.879 13.9395 0.4395 15 1.5"></polygon>
+    </defs>
+    <g id="Page-1-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-15" transform="translate(-1034.000000, -3594.000000)">
+            <g id="Group-15" transform="translate(180.000000, 2960.000000)">
+                <g id="Automate-and-Schedule-Graphic" transform="translate(862.000000, 638.000000)">
+                    <g id="Rectangle-4">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <text id="RUN-TEST-EVERY" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="16" letter-spacing="0.300000012" fill="#A3A4A3">
+                        <tspan x="33" y="118">RUN TEST EVERY</tspan>
+                    </text>
+                    <g id="Form-Item-(name)" transform="translate(33.000000, 32.000000)">
+                        <rect id="Rectangle-5" stroke="#E5E5E5" stroke-width="2" x="1" y="1" width="361" height="40"></rect>
+                        <rect id="Rectangle-5" fill="#76A8FF" x="0" y="0" width="92" height="42"></rect>
+                        <rect id="Rectangle-5" fill="#76A8FF" x="50" y="0" width="72" height="42"></rect>
+                        <rect id="fake-text" fill="#D8D8D8" x="138" y="17" width="160" height="8"></rect>
+                        <text id="Test-Name" font-family="IBMPlexSans, IBM Plex Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="16" y="25">Test Name</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-26" transform="translate(33.000000, 146.000000)">
+                        <g id="Form-Item-(minutes)">
+                            <rect id="Rectangle-5" fill="#76A8FF" x="0" y="0" width="92" height="42" rx="4"></rect>
+                            <rect id="Rectangle-5" fill="#76A8FF" x="50" y="0" width="72" height="42"></rect>
+                            <text id="On-Minute" font-family="IBMPlexSans, IBM Plex Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#FFFFFF">
+                                <tspan x="16" y="25">On Minute</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle" stroke="#5392FF" stroke-width="2" fill="#00DDBD" x="122" y="1" width="40" height="40"></rect>
+                        <rect id="Rectangle-Copy-37" stroke="#5392FF" stroke-width="2" fill="#00DDBD" x="122" y="1" width="40" height="40"></rect>
+                        <rect id="Rectangle-Copy-38" stroke="#5392FF" stroke-width="2" fill="#FC835C" x="122" y="1" width="40" height="40"></rect>
+                        <rect id="Rectangle-Copy-39" stroke="#5392FF" stroke-width="2" fill="#00DDBD" x="162" y="1" width="40" height="40"></rect>
+                        <rect id="Rectangle-Copy-41" stroke="#5392FF" stroke-width="2" fill="#FC835C" x="202" y="1" width="40" height="40"></rect>
+                        <rect id="Rectangle-Copy-40" stroke="#5392FF" stroke-width="2" fill="#00DDBD" x="242" y="1" width="40" height="40"></rect>
+                        <rect id="Rectangle-Copy-43" stroke="#5392FF" stroke-width="2" fill="#00DDBD" x="282" y="1" width="40" height="40"></rect>
+                        <rect id="Rectangle-Copy-42" stroke="#5392FF" stroke-width="2" fill="#00DDBD" x="322" y="1" width="40" height="40"></rect>
+                        <rect id="Rectangle-Copy-44" stroke="#5392FF" stroke-width="2" fill="#00DDBD" x="122" y="41" width="40" height="40"></rect>
+                        <rect id="Rectangle-Copy-49" stroke="#5392FF" stroke-width="2" fill="#00DDBD" x="162" y="41" width="40" height="40"></rect>
+                        <rect id="Rectangle-Copy-48" stroke="#5392FF" stroke-width="2" fill="#00DDBD" x="202" y="41" width="40" height="40"></rect>
+                        <rect id="Rectangle-Copy-47" stroke="#5392FF" stroke-width="2" fill="#FC835C" x="242" y="41" width="40" height="40"></rect>
+                        <rect id="Rectangle-Copy-46" stroke="#5392FF" stroke-width="2" fill="#00DDBD" x="282" y="41" width="40" height="40"></rect>
+                        <rect id="Rectangle-Copy-45" stroke="#5392FF" stroke-width="2" fill="#00DDBD" x="322" y="41" width="40" height="40"></rect>
+                        <text id="05" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="172" y="26">05</tspan>
+                        </text>
+                        <text id="00" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="132" y="26">00</tspan>
+                        </text>
+                        <text id="10" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="212" y="26">10</tspan>
+                        </text>
+                        <text id="15" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="252" y="26">15</tspan>
+                        </text>
+                        <text id="20" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="292" y="26">20</tspan>
+                        </text>
+                        <text id="25" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="332" y="26">25</tspan>
+                        </text>
+                        <text id="30" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="132" y="66">30</tspan>
+                        </text>
+                        <text id="40" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="212" y="66">40</tspan>
+                        </text>
+                        <text id="35" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="172" y="66">35</tspan>
+                        </text>
+                        <text id="45" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="252" y="66">45</tspan>
+                        </text>
+                        <text id="50" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="292" y="66">50</tspan>
+                        </text>
+                        <text id="55" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="332" y="66">55</tspan>
+                        </text>
+                    </g>
+                    <g id="Form-Item-(minutes)-Copy" transform="translate(32.000000, 260.000000)">
+                        <rect id="Rectangle-5" fill="#76A8FF" x="0" y="0" width="363" height="42"></rect>
+                        <g id="icons/arrows/ibm-chevron-down-link" transform="translate(331.000000, 11.000000)">
+                            <g id="🎨Color" transform="translate(5.250000, 7.500000)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-3"></use>
+                            </g>
+                        </g>
+                        <rect id="Rectangle-5" fill="#76A8FF" x="0" y="0" width="92" height="42" rx="4"></rect>
+                        <rect id="Rectangle-5" fill="#76A8FF" x="50" y="0" width="72" height="42"></rect>
+                        <text id="Every-Hour" font-family="IBMPlexSans, IBM Plex Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="16" y="25">Every Hour</tspan>
+                        </text>
+                    </g>
+                    <g id="Form-Item-(minutes)-Copy-2" transform="translate(32.000000, 334.000000)">
+                        <rect id="Rectangle-5" fill="#76A8FF" x="0" y="0" width="363" height="42"></rect>
+                        <g id="icons/arrows/ibm-chevron-down-link" transform="translate(331.000000, 11.000000)">
+                            <g id="🎨Color" transform="translate(5.250000, 7.500000)">
+                                <mask id="mask-6" fill="white">
+                                    <use xlink:href="#path-5"></use>
+                                </mask>
+                                <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-5"></use>
+                            </g>
+                        </g>
+                        <rect id="Rectangle-5" fill="#76A8FF" x="0" y="0" width="92" height="42" rx="4"></rect>
+                        <rect id="Rectangle-5" fill="#76A8FF" x="50" y="0" width="72" height="42"></rect>
+                        <text id="Every-Day" font-family="IBMPlexSans, IBM Plex Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="16" y="25">Every Day</tspan>
+                        </text>
+                    </g>
+                    <g id="Check-items" transform="translate(42.000000, 432.000000)">
+                        <g id="Check-Item-(Geo)">
+                            <path d="M38.519,19.259 C38.519,29.896 29.897,38.518 19.26,38.518 C8.623,38.518 0,29.896 0,19.259 C0,8.622 8.623,0 19.26,0 C29.897,0 38.519,8.622 38.519,19.259" id="Fill-1" fill="#00DDBD"></path>
+                            <text id="Test-by-Geo" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#323232">
+                                <tspan x="55" y="23">Test by Geo</tspan>
+                            </text>
+                            <path d="M16.3941,22.7631 L12.6811,19.0501 C12.1221,18.4911 11.2141,18.4891 10.6531,19.0471 C10.0881,19.6081 10.0861,20.5201 10.6491,21.0821 L15.3741,25.8081 C15.9341,26.3651 16.8391,26.3651 17.3991,25.8081 L27.8761,15.3301 C28.4351,14.7721 28.4351,13.8651 27.8761,13.3061 C27.3171,12.7461 26.4111,12.7461 25.8511,13.3061 L16.3941,22.7631 Z" id="Fill-4" fill="#FFFFFF"></path>
+                        </g>
+                        <g id="Check-Item-(Zip)" transform="translate(207.000000, 0.000000)">
+                            <path d="M38.519,19.259 C38.519,29.896 29.897,38.518 19.26,38.518 C8.623,38.518 0,29.896 0,19.259 C0,8.622 8.623,0 19.26,0 C29.897,0 38.519,8.622 38.519,19.259" id="Fill-1" fill="#00DDBD"></path>
+                            <text id="Test-by-Zip" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#323232">
+                                <tspan x="55" y="23">Test by Zip</tspan>
+                            </text>
+                            <path d="M16.3941,22.7631 L12.6811,19.0501 C12.1221,18.4911 11.2141,18.4891 10.6531,19.0471 C10.0881,19.6081 10.0861,20.5201 10.6491,21.0821 L15.3741,25.8081 C15.9341,26.3651 16.8391,26.3651 17.3991,25.8081 L27.8761,15.3301 C28.4351,14.7721 28.4351,13.8651 27.8761,13.3061 C27.3171,12.7461 26.4111,12.7461 25.8511,13.3061 L16.3941,22.7631 Z" id="Fill-4" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

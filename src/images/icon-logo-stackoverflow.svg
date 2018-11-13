@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="80px" viewBox="0 0 61 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>overflowing</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="facebook-footer-icon-copy" transform="translate(-49.000000, -39.000000)" fill-rule="nonzero">
+            <g id="overflowing" transform="translate(49.000000, 39.000000)">
+                <g id="Group" transform="translate(8.360406, 0.000000)" fill="#FFC107">
+                    <rect id="Rectangle-path" x="0.124477157" y="63.285614" width="31.2964061" height="6.73185185"></rect>
+                    <rect id="Rectangle-path" transform="translate(46.594863, 16.261420) rotate(170.154318) translate(-46.594863, -16.261420) " x="43.253005" y="0.49878694" width="6.68371616" height="31.5252663"></rect>
+                    <polygon id="Shape" points="1.01625381 51.0794542 32.1788934 53.9738012 31.5645584 60.6757115 0.401918782 57.7863548"></polygon>
+                    <rect id="Rectangle-path" transform="translate(18.251947, 44.346046) rotate(105.046570) translate(-18.251947, -44.346046) " x="14.9103917" y="28.5848116" width="6.68311098" height="31.5224688"></rect>
+                    <polygon id="Shape" points="11.2221421 21.4722807 38.1785685 37.4860039 34.7848629 43.2846784 7.82348223 27.2709552"></polygon>
+                    <polygon id="Shape" points="27.1552183 6.72608187 44.7876244 32.7702144 39.2685178 36.562807 21.6311574 10.5186745"></polygon>
+                </g>
+                <polygon id="Shape" fill="#B0BEC5" points="49.6156041 79.9979727 0.0724568528 79.9979727 0.0724568528 50.0564522 5.02677157 50.0564522 5.02677157 75.0077193 44.6612893 75.0077193 44.6612893 50.0564522 49.6156041 50.0564522"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

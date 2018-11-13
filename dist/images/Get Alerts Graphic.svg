@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="586px" height="382px" viewBox="0 0 586 382" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Get Alerts Graphic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="570" height="366"></rect>
+        <filter x="-2.5%" y="-2.7%" width="104.9%" height="107.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="35" cy="35" r="35"></circle>
+    </defs>
+    <g id="Page-1-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-15" transform="translate(-172.000000, -4225.000000)">
+            <g id="Group-15" transform="translate(180.000000, 2960.000000)">
+                <g id="Get-Alerts-Graphic" transform="translate(0.000000, 1269.000000)">
+                    <g id="Rectangle-4">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <rect id="Rectangle-4" fill="#5392FF" x="0" y="0" width="570" height="142"></rect>
+                    <rect id="Rectangle-4" fill="#5392FF" x="0" y="71" width="570" height="71"></rect>
+                    <rect id="Rectangle-6" fill="#FC835C" x="234" y="90" width="48" height="29"></rect>
+                    <rect id="Rectangle-6-Copy-2" fill="#FC835C" x="362" y="103" width="48" height="16"></rect>
+                    <rect id="Rectangle-6-Copy" fill="#00DDBD" x="298" y="49" width="48" height="70"></rect>
+                    <rect id="Rectangle-6-Copy-3" fill="#00DDBD" x="426" y="71" width="48" height="48"></rect>
+                    <path d="M166.498592,118.5 L521.5,118.5" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                    <g id="pie-chart" transform="translate(48.000000, 48.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill="#00DDBD" xlink:href="#path-3"></use>
+                        <rect id="Rectangle-6" stroke="#FFFFFF" stroke-width="2" fill="#FC835C" mask="url(#mask-4)" x="-9" y="37" width="46" height="38"></rect>
+                    </g>
+                    <text id="Test-Name" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="16" letter-spacing="0.300000012" fill="#A3A4A3">
+                        <tspan x="48" y="178">TEST NAME</tspan>
+                    </text>
+                    <text id="Failure-Trend" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="16" letter-spacing="0.300000012" fill="#A3A4A3">
+                        <tspan x="234" y="178">FAILURE TREND</tspan>
+                    </text>
+                    <text id="Successes" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="16" letter-spacing="0.300000012" fill="#A3A4A3">
+                        <tspan x="361" y="178">SUCCESSES</tspan>
+                    </text>
+                    <text id="Failures" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="16" letter-spacing="0.300000012" fill="#A3A4A3">
+                        <tspan x="463" y="178">FAILURES</tspan>
+                    </text>
+                    <g id="Metric-1" transform="translate(48.000000, 198.000000)">
+                        <text id="-0.34%" font-family="IBMPlexMono-SemiBold, IBM Plex Mono" font-size="16" font-weight="500" line-spacing="24" fill="#323232">
+                            <tspan x="207" y="16">-0.34%</tspan>
+                        </text>
+                        <text id="118" font-family="IBMPlexMono-SemiBold, IBM Plex Mono" font-size="16" font-weight="500" line-spacing="24" fill="#323232">
+                            <tspan x="313" y="16">118</tspan>
+                        </text>
+                        <text id="0" font-family="IBMPlexMono-SemiBold, IBM Plex Mono" font-size="16" font-weight="500" line-spacing="24" fill="#323232">
+                            <tspan x="415" y="16">0</tspan>
+                        </text>
+                        <circle id="Oval" fill="#00DDBD" cx="193" cy="12" r="6"></circle>
+                        <rect id="fake-text" fill="#D8D8D8" x="0" y="8" width="122" height="8"></rect>
+                    </g>
+                    <g id="Metric-2" transform="translate(48.000000, 246.000000)">
+                        <text id="+4.15%" font-family="IBMPlexMono-SemiBold, IBM Plex Mono" font-size="16" font-weight="500" line-spacing="24" fill="#323232">
+                            <tspan x="207" y="16">+4.15%</tspan>
+                        </text>
+                        <text id="115" font-family="IBMPlexMono-SemiBold, IBM Plex Mono" font-size="16" font-weight="500" line-spacing="24" fill="#323232">
+                            <tspan x="313" y="16">115</tspan>
+                        </text>
+                        <text id="6" font-family="IBMPlexMono-SemiBold, IBM Plex Mono" font-size="16" font-weight="500" line-spacing="24" fill="#323232">
+                            <tspan x="415" y="16">6</tspan>
+                        </text>
+                        <circle id="Oval" fill="#FC835C" cx="193" cy="12" r="6"></circle>
+                        <rect id="fake-text" fill="#D8D8D8" x="0" y="8" width="152" height="8"></rect>
+                    </g>
+                    <g id="Metric-3" transform="translate(48.000000, 294.000000)">
+                        <text id="-1.82%" font-family="IBMPlexMono-SemiBold, IBM Plex Mono" font-size="16" font-weight="500" line-spacing="24" fill="#323232">
+                            <tspan x="207" y="16">-1.82%</tspan>
+                        </text>
+                        <text id="111" font-family="IBMPlexMono-SemiBold, IBM Plex Mono" font-size="16" font-weight="500" line-spacing="24" fill="#323232">
+                            <tspan x="313" y="16">111</tspan>
+                        </text>
+                        <text id="0" font-family="IBMPlexMono-SemiBold, IBM Plex Mono" font-size="16" font-weight="500" line-spacing="24" fill="#323232">
+                            <tspan x="415" y="16">0</tspan>
+                        </text>
+                        <circle id="Oval" fill="#00DDBD" cx="193" cy="12" r="6"></circle>
+                        <rect id="fake-text" fill="#D8D8D8" x="0" y="8" width="80" height="8"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

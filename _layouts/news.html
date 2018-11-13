@@ -1,0 +1,89 @@
+<!-- this is the template for the api docs -->
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+{% include segment.html %}
+<head>
+  {% include head.html %}
+
+  <meta property="og:url"           content="https://microclimate-dev2ops.github.io/news" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Microclimate" />
+  <meta property="og:description"   content="Fast, incremental, intelligent, end-to-end development." />
+  <meta property="og:image"         content="https://microclimate-dev2ops.github.io/dist/images/logo.jpg" />
+  <meta property="og:image:width"   content="400"/>
+  <meta property="og:image:height"  content="400"/>
+</head>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));
+
+
+(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  
+{% include masthead.html %}
+<body class="doc-template {{ page.permalink }}">
+
+<div class="grid-x">
+    <div class="sidebar cell large-3" data-equalizer>
+      <aside aria-label="aside" data-equalizer-watch>
+        <nav aria-label="sidebar">
+            <h4>News Archive</h4>
+            <ul>
+              {% assign allnews = site.news %}
+              {% assign newsitems = allnews | sort: 'order' | reverse %}
+              {% for news in newsitems %}
+              <li><a class="newslink {% if forloop.first == true %}active-link{% endif %}" href="{{ news.permalink}}">{{ news.linkname}}</a></li>
+              {% endfor %}
+            </ul>
+        </nav>
+      </aside>
+      <div role="region" aria-label="promo" class="mc-promo">
+        <h2>Give it a shot!</h2>
+        <p>Text + get started link (AA00)</p>
+        <a href="installlocally#doc" class="button">Try It Now!</a>
+
+      </div>
+    </div>
+    <!-- /.cell -->
+    <div class="cell large-8 content" data-equalizer-watch>
+      <div class="row">
+        <div class="small-12 medium-12 text-right large-12 text-right columns" style="line-height: 10px;">
+          <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Microclimate%20new%20release!">Tweet</a>
+
+          <!-- Your share button code -->
+          <div style="display:inline;" class="fb-share-button" 
+            data-href="https://microclimate-dev2ops.github.io/news" 
+            data-layout="button_count">
+          </div>
+        </div>
+      </div>
+      <div role="main" id="newscontent">
+        {{ content }}
+      </div>
+    </div>
+    <!-- /.cell -->
+</div>
+<!-- /.grid-x -->
+
+{% include footer.html %}
+
+
