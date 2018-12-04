@@ -8,4 +8,5 @@
         <li> <code>one</code>: Only one of the matching elements in the payload needs to match the assertion.</li>
       </ul>
    </td>
+   <td> All </td>
 </tr>

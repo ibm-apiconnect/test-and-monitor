@@ -12,26 +12,30 @@ parent: assertion-components
 
 Asserts that two elements are equivalent in some way.
 
-## Parameters
+<style type="text/css"> .docsTable {border-collapse:collapse;border-spacing:0;} .docsTable td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;} .docsTable th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;} .docsTable .docsTableBorder{border-color:inherit;text-align:left} </style> 
 
-<table>
+## Parameters
+<div class="docsTable-wrap"><table class="docsTable">
   <tr>
     <th> Name </th>
     <th> Type </th>
     <th> Required? </th>
     <th> Description </th>
+    <th> Default Value </th>
   </tr>
   <tr>
     <td> Expression 1 </td>
     <td> Expression </td>
     <td> Yes </td>
     <td> Path to the first element for comparison; for example, `payload1.productId`. </td>
+    <td></td>
   </tr>
   <tr>
     <td> Expression 2 </td>
     <td> Expression </td>
     <td> Yes </td>
     <td> Path to the second element for comparison; for example, `payload2.productId`. </td>
+    <td></td>
   </tr>
   <tr>
     <td> Mode </td>
@@ -44,12 +48,12 @@ Asserts that two elements are equivalent in some way.
         <li> <code>structure</code>: compare only the structure of the two elements.</li>
       </ul>
     </td>
-  </tr>  
+    <td>Text</td>
+  </tr>
   
-  {% include assertion_param_level.md %}
+   {% include assertion_param_level.md %}
   
   {% include assertion_param_stop_test_if_fails.md %}
   
-  {% include assertion_param_comment.md %}
- 
-</table>
+  {% include assertion_param_comment.md %} 
+</table></div>

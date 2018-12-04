@@ -8,4 +8,5 @@
         <li><code>float</code>: the values are evaluated as decimal numbers.</li>
       </ul>
     </td>
+    <td> Integer </td>
 </tr>

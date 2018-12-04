@@ -12,20 +12,28 @@ parent: assertion-components
 
 Asserts that the value of the element identified by a given expression is of a specific type.
 
-## Parameters
+<style type="text/css">
+.docsTable  {border-collapse:collapse;border-spacing:0;}
+.docsTable td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.docsTable th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.docsTable .docsTableBorder{border-color:inherit;text-align:left}
+<!-- @media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}} --></style>
 
-<table>
+## Parameters
+<div class="docsTable-wrap"><table class="docsTable">
   <tr>
     <th> Name </th>
     <th> Type </th>
     <th> Required? </th>
     <th> Description </th>
-  </tr>
-  <tr>
+    <th> Default Value </th>
+ <tr>
+<tr>
     <td> Expression </td>
     <td> Expression </td>
     <td> Yes </td>
     <td> Path to the element whose type is to be examined; for example, `payload.productId`. </td>
+    <td></td>
   </tr>
   <tr>
     <td> Type </td>
@@ -42,7 +50,8 @@ Asserts that the value of the element identified by a given expression is of a s
        <li><code>map</code>: Checks if the element is a map type.</li>
        <li><code>array</code>: Checks if the element is an array.</li>
       </ul>
-    </td>  
+    </td>
+    <td></td>
   </tr>
   
   {% include assertion_param_mode_all_one.md %}
@@ -57,4 +66,5 @@ Asserts that the value of the element identified by a given expression is of a s
   
   {% include assertion_param_comment.md %}
   
-</table>
+  
+<!-- </table></div> -->

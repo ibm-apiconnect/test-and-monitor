@@ -12,20 +12,28 @@ parent: assertion-components
 
 Asserts that the value of the element identified by a given expression matches a specified format.
 
-## Parameters
+<style type="text/css">
+.docsTable  {border-collapse:collapse;border-spacing:0;}
+.docsTable td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.docsTable th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.docsTable .docsTableBorder{border-color:inherit;text-align:left}
+<!-- @media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}} --></style>
 
-<table>
+## Parameters
+<div class="docsTable-wrap"><table class="docsTable">
   <tr>
     <th> Name </th>
     <th> Type </th>
     <th> Required? </th>
     <th> Description </th>
-  </tr>
-  <tr>
+    <th> Default Value </th>
+ <tr>
+ <tr>
     <td> Expression </td>
     <td> Expression </td>
     <td> Yes </td>
     <td> Path to the element that you want to examine; for example, `payload.productId`.</td>
+    <td></td>
   </tr>
   <tr>
     <td> Type </td>
@@ -41,12 +49,14 @@ Asserts that the value of the element identified by a given expression matches a
         <li><code>currency codes</code>: Checks if the element value is a valid currency code.</li>
       </ul>
     </td>
+    <td> Regex </td>
   </tr>
   <tr>
     <td> Regex value </td>
     <td> String </td>
     <td> Yes, if value of the <b>Type</b> parameter is <code>regex</code> </td>
     <td> Specify the regular expression you want to use for checking the expression. </td>
+    <td></td>
   </tr>
   
   {% include assertion_param_mode_all_one.md %}
@@ -61,4 +71,4 @@ Asserts that the value of the element identified by a given expression matches a
   
   {% include assertion_param_comment.md %}
   
-</table>
+<!-- </table></div> -->
