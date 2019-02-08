@@ -1,3 +1,3 @@
-1. Click your company name in the menu bar to open your company project page.
+1. Click your test organization name in the menu bar to open your test organization project page.
   
-    ![Image of company name](./images/company-name-in-menu-bar.png) 
+    ![Image of test organization name](./images/company-name-in-menu-bar.png) 

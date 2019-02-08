@@ -27,4 +27,4 @@ To delete a project, complete the following steps:
 
     ![Image of delete error](./images/cant-delete-project.png)  
 
-    If your project is deleted successfully, you are returned to your company project page, and your deleted project is no longer displayed.
+    If your project is deleted successfully, you are returned to your test organization project page, and your deleted project is no longer displayed.
