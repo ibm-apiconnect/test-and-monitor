@@ -4,7 +4,7 @@ This GitHub repository contains two things :
 1. Developer Hub code, which gets built and published to https://ibm-apiconnect.github.io/test-and-monitor/.
 1. Desktop Application releases.
 
-# The Developer Hub
+## The Developer Hub
 
 This is where you'll find documentation for IBM API Connect Test and Monitor on cloud, as well as links to our community and blog. It's also where you can log on or, if you don't have a subscription yet, where you can sign up.
 
