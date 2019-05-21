@@ -61,8 +61,7 @@ gulp.task('scripts', function(){
     .pipe(browserSync.reload({stream:true}))
 });
 
-gulp.task('default', ['browser-sync'], function(){
+gulp.task('default', function(){
   gulp.watch("src/styles/**/*.scss", ['styles']);
   gulp.watch("src/scripts/**/*.js", ['scripts']);
-  gulp.watch("*.html", ['bs-reload']);
 });

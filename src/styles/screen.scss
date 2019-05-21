@@ -28,3 +28,75 @@
 // Import Plugins
 // @import 'plugins/plugin';
 
+.reveal {
+  outline: none;
+  padding: 1rem 2rem;
+  @include breakpoint(large) {
+    padding: 2rem 3rem;
+  }
+
+  .hero-title {
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .reveal-subtitle {
+    color: grey;
+    font-size: 1.2rem;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    line-height: 2rem;
+    font-size: xx-large;
+    color: lightgrey;
+
+    :hover, :active {
+      color: black;
+    }
+  }
+}
+
+.download-content {
+  display: flex;
+
+  .screenshot {
+    flex: 2;
+    img {
+      margin: 1rem 1rem 0 -1rem;
+      // max-width: 70%;
+    }
+  }
+  .download-links {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+
+    .download {
+      margin-bottom: 1.8rem;
+
+      img.download-icon {
+        height: 1.6rem;
+        vertical-align: sub;
+        margin-right: 0.5rem;
+      }
+      img.os-logo {
+        max-width: 2rem;
+        vertical-align: bottom;
+        margin-right: 1rem;
+      }
+      a {
+        line-height: 2rem;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+.error {
+  color: red;
+}

@@ -1,25 +1,18 @@
 $(document).foundation();
 
-//$(document).keydown(function(e) {
-//	if (e.keyCode == 27) {
-//		if ($('.videoContainer').length) {
-//			$('.videoContainer').fadeOut(500, function() { $(this).remove(); });
-//		}
-//	}
-//});
+function generateDownloadURLs(data) {
+  if (!data.assets || !data.assets.length) return;
 
-//function trackVideoPlay(file) {
-//	window.bluemixAnalytics.trackEvent("Custom Event",{
-//	    productTitle: digitalData.page.pageInfo.productTitle,
-//	    category: digitalData.page.pageInfo.analytics.category,
-//	    action: "View video",
-//	    customName1: "source",
-//	    customValue1: "Landing page",
-//	    objectType: "Video",
-//	    object: file
-//    });
-//}
-
+  data.assets.forEach(function(asset) {
+    if (/\.exe$/.test(asset.name)) {
+      document.getElementById('download-link-windows').setAttribute('href', asset.browser_download_url);
+    } else if (/\.dmg$/.test(asset.name)) {
+      document.getElementById('download-link-macos').setAttribute('href', asset.browser_download_url);
+    } else if (/\.AppImage$/.test(asset.name)) {
+      document.getElementById('download-link-linux').setAttribute('href', asset.browser_download_url);
+    }
+  });
+}
 
 function trackDownload(file) {
 	window.bluemixAnalytics.trackEvent("Downloaded Hybrid Solution",{
@@ -34,17 +27,15 @@ function trackDownload(file) {
 }
 
 $(document).ready(function(){
-    // $.ajax({
-    //     url: 'https://api.github.ibm.com/repos/dev-ex/microclimate/tags?access_token=f5fb332a281a15d8165db037b318ac837eff96a2', // The URL to the API. You can get this by clicking on "Show CURL example" from an API profile
-    //     type: 'GET', // The HTTP Method
-    //     data: {}, // Additional parameters here
-    //     dataType: 'json',
-    //     success: function(data) { console.log(JSON.stringify(data)); },
-    //     error: function(err) { console.log(err); },
-    //     beforeSend: function(xhr) {
-    //     // xhr.setRequestHeader("X-Mashape-Authorization", "YOUR-MASHAPE-KEY"); // Enter here your Mashape key
-    //     }
-    // });
+  // generate download urls for Desktop client
+  fetch("https://api.github.com/repos/ibm-apiconnect/test-and-monitor/releases/latest")
+    .then(function(response) { return response.json() })
+    .then(generateDownloadURLs)
+    .catch(function(error) {
+      $('#download-links-error')
+        .html("* Error getting download links, please try reloading this page.")
+        .removeClass('hide');
+    });
 
     $(".trackdownload").on("click", function(e) {
         var file=$(this).attr('href');
