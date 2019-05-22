@@ -14,7 +14,7 @@ It is a [GitHub Pages](https://pages.github.com/) website, which we generate fro
 
 The Desktop Application is a native application that allows you to perform many of the operations provided by the HTTP Client that's part of the cloud offering. Currently supported platforms are Linux, MacOS, and Windows.
 
-The different releases of the Desktop Application are held in this GitHub repository, at https://github.com/ibm-apiconnect/test-and-monitor/releases.
+You can download the latest version of the destkop HTTP client from the Developer Hub home page, and previous releases are held in this GitHub repository at https://github.com/ibm-apiconnect/test-and-monitor/releases.
 
 The images we publish for each release are :
 
