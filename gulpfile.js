@@ -7,20 +7,6 @@ var uglify = require('gulp-uglify');
 var imagemin = require('gulp-imagemin'),
     cache = require('gulp-cache');
 var sass = require('gulp-sass');
-var sourcemaps = require('gulp-sourcemaps');
-var browserSync = require('browser-sync');
-
-gulp.task('browser-sync', function() {
-  browserSync({
-    server: {
-       baseDir: "./"
-    }
-  });
-});
-
-gulp.task('bs-reload', function () {
-  browserSync.reload();
-});
 
 gulp.task('images', function(){
   gulp.src('src/images/**/*')
@@ -43,7 +29,6 @@ gulp.task('styles', function(){
     // .pipe(sourcemaps.write())
     .pipe(autoprefixer('last 2 versions'))
     .pipe(gulp.dest('dist/styles/'))
-    .pipe(browserSync.reload({stream:true}))
 });
 
 gulp.task('scripts', function(){
@@ -58,10 +43,12 @@ gulp.task('scripts', function(){
     .pipe(rename({suffix: '.min'}))
     .pipe(uglify())
     .pipe(gulp.dest('dist/scripts/'))
-    .pipe(browserSync.reload({stream:true}))
 });
 
-gulp.task('default', function(){
-  gulp.watch("src/styles/**/*.scss", ['styles']);
-  gulp.watch("src/scripts/**/*.js", ['scripts']);
+gulp.task('watch', function(){
+  gulp.watch('src/styles/**/*.scss', ['styles']);
+  gulp.watch('src/scripts/**/*.js', ['scripts']);
+  gulp.watch('src/images/**', ['images']);
 });
+
+gulp.task('default', ['styles', 'scripts', 'images']);
