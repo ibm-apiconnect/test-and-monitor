@@ -1,19 +1,5 @@
 $(document).foundation();
 
-function generateDownloadURLs(data) {
-  if (!data.assets || !data.assets.length) return;
-
-  data.assets.forEach(function(asset) {
-    if (/\.exe$/.test(asset.name)) {
-      document.getElementById('download-link-windows').setAttribute('href', asset.browser_download_url);
-    } else if (/\.dmg$/.test(asset.name)) {
-      document.getElementById('download-link-macos').setAttribute('href', asset.browser_download_url);
-    } else if (/\.AppImage$/.test(asset.name)) {
-      document.getElementById('download-link-linux').setAttribute('href', asset.browser_download_url);
-    }
-  });
-}
-
 function trackDownload(file) {
 	window.bluemixAnalytics.trackEvent("Downloaded Hybrid Solution",{
 	    productTitle: digitalData.page.pageInfo.productTitle,
@@ -27,16 +13,6 @@ function trackDownload(file) {
 }
 
 $(document).ready(function(){
-  // generate download urls for Desktop client
-  fetch("https://api.github.com/repos/ibm-apiconnect/test-and-monitor/releases/latest")
-    .then(function(response) { return response.json() })
-    .then(generateDownloadURLs)
-    .catch(function(error) {
-      $('#download-links-error')
-        .html("* Error getting download links, please try reloading this page.")
-        .removeClass('hide');
-    });
-
     $(".trackdownload").on("click", function(e) {
         var file=$(this).attr('href');
         trackDownload(file);
