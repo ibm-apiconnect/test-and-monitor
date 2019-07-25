@@ -16,17 +16,17 @@ To schedule a test, complete the following steps:
 
 1. Click your project name in the menu bar to get to the "Projects" page.
 
-    ![Image of projects link](./images/projects-link.png)
+    ![Image of projects link](./dist/images/projects-link.png)
 
-1. On the "Projects" page, click the **Tests** icon ![Image of the tests icon](./images/icon-tests.png) for the project that contains the test that you want to schedule. The list of tests is displayed.
+1. On the "Projects" page, click the **Tests** icon ![Image of the tests icon](./dist/images/icon-tests.png) for the project that contains the test that you want to schedule. The list of tests is displayed.
 
-1. On the "Tests" page, click the **Scheduler** icon ![Image of the scheduler icon](./images/icon-scheduler.png) for the test that you want to schedule runs for.
+1. On the "Tests" page, click the **Scheduler** icon ![Image of the scheduler icon](./dist/images/icon-scheduler.png) for the test that you want to schedule runs for.
 
-    ![Image of tests schedule button](./images/tests-schedule-button.png)
+    ![Image of tests schedule button](./dist/images/tests-schedule-button.png)
 
 1. On the "Scheduler" page, click **+ Create New Run**.
 
-    ![Image of schedules create button](./images/schedules-create-button.png)
+    ![Image of schedules create button](./dist/images/schedules-create-button.png)
 
 1. On the "New Run" page, complete the following details:
 - Enter a **Name** for the run.
@@ -34,7 +34,7 @@ To schedule a test, complete the following steps:
 - Set the frequency of the run that you require.
 - Click **Save Run** in the upper right of the page.
 
-    ![Image of schedule details](./images/schedule-details.png)
+    ![Image of schedule details](./dist/images/schedule-details.png)
 
 In the above example, the test is set to run at 00:00, 00:15, 00:30, 00:45, 06:00, 06:15, 06:30, 06:45, 12:00, 12:15, 12:30, 12:45, 18:00, 18:15, 18:30, and 18:45 every day of every month.
 
