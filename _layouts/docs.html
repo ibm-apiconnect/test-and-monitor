@@ -1,6 +1,5 @@
 <!-- this is the template for the api docs -->
 {% include header.html %}
-{% include banner-release-news.html %}
 {% include masthead.html %}
 <body class="doc-template {{ page.permalink }}">
 <div class="grid-x">
@@ -24,7 +23,7 @@
 	      {% assign ulPrinted1 = false %}
 	      {% for doc in docs %}
 	        {% if doc.parent == root.permalink %}
-	            
+
 			    {% if ulPrinted1 == false %}
 				  <ul>
 				{% endif %}
@@ -69,7 +68,7 @@
     </div>
     <!-- /.cell -->
     <div class="cell content small-12 medium-8" id="doc" data-equalizer-watch>
-    
+
     <!-- Html Elements for Search -->
     <div class="grid-x">
       <div class="cell medium-6 large-8"></div>
@@ -80,7 +79,7 @@
       </div>
       -->
     </div>
-    
+
     <div role="main">
         {{ content }}
     </div>
