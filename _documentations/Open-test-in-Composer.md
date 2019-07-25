@@ -7,7 +7,7 @@ duration: 1 minute
 permalink: open-test-in-composer
 type: document
 order: 3
-parent: additionaltasks
+parent: additional-tasks
 ---
 
 To open a test in the Composer, complete the following steps:  

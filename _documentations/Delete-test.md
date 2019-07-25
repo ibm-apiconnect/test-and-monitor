@@ -7,7 +7,7 @@ duration: 1 minute
 permalink: delete-test
 type: document
 order: 2
-parent: additionaltasks
+parent: additional-tasks
 ---
 
 To delete a test, complete the following steps:  
