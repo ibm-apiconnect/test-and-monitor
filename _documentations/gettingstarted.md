@@ -30,6 +30,7 @@ The product includes the following features:
 
 
 # Getting started
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/F2148ycD2hk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
 
 To quickly get up and running, see the following pages:
 
