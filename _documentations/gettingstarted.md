@@ -13,6 +13,8 @@ parent: root
 
 <!-- add a docs overview with permalink:documentation and then change this in the top menu links -->
 
+[What's new?](./CHANGELOG.txt)
+
 IBM API Connect Test and Monitor provides automated, collaborative, and powerful API testing and monitoring, with no code needed.
 
 The product includes the following features:
