@@ -2,20 +2,9 @@
 <!DOCTYPE map PUBLIC "-//IBM//DTD DITA IBM Map//EN"
  "ibm-map.dtd">
 <?Pub Sty _display FontColor="red"?>
-<map activity="learn use" operatingsystem="windows linux" product="SSMNED_2018"
-title="CLI reference" xml:lang="en-us">
-<topicmeta>
-<copyright>
-<copyryear year="2013, 2016"/>
-<copyrholder>IBM Corporation</copyrholder>
-</copyright>
-</topicmeta>
-<!--CD velox updates 031318-->
-
+<map title="Test and Monitor" xml:lang="en-us">
 <topicref href="gettingstarted.md" format="markdown" locktitle="yes" linking="none">
-<!--<topicref href="apic_access-tokens.md" format="markdown"><topicref href="apic_access-tokens_clear.md" format="markdown"/><topicref href="apic_access-tokens_create.md" format="markdown"/><topicref href="apic_access-tokens_delete.md" format="markdown"/><topicref href="apic_access-tokens_get.md" format="markdown"/><topicref href="apic_access-tokens_list.md" format="markdown"/><topicref href="apic_access-tokens_update.md" format="markdown"/></topicref>-->
 <topicref href="gettingstarted.md" format="markdown">
-<!--<topicref href="apic_analytics_get.md" format="markdown"/>-->
 <topicref href="Create-test.md" format="markdown"/>
 <topicref href="Modify-test.md" format="markdown"/>
 <topicref href="Run-test.md" format="markdown"/>
@@ -36,20 +25,10 @@ title="CLI reference" xml:lang="en-us">
 <topicref href="Security.md" format="markdown">
 <topicref href="storing-sensitive-data.md" format="markdown"/>
 </topicref>
-<!--<topicref href="apic_api-user-registries.md" format="markdown"><topicref href="apic_api-user-registries_clear.md" format="markdown"/><topicref href="apic_api-user-registries_create.md" format="markdown"/><topicref href="apic_api-user-registries_delete.md" format="markdown"/><topicref href="apic_api-user-registries_get.md" format="markdown"/><topicref href="apic_api-user-registries_list.md" format="markdown"/><topicref href="apic_api-user-registries_sample.md" format="markdown"/><topicref href="apic_api-user-registries_update.md" format="markdown"/></topicref>-->
 <topicref href="additional-tasks.md" format="markdown">
 <topicref href="Delete-project.md" format="markdown"/>
 <topicref href="Delete-test.md" format="markdown"/>
 <topicref href="Open-test-in-Composer.md" format="markdown"/>
 </topicref>
-<!--<topicref href="apic_billings.md" format="markdown"><topicref href="apic_billings_clear.md" format="markdown"/><topicref href="apic_billings_create.md" format="markdown"/><topicref href="apic_billings_delete.md" format="markdown"/><topicref href="apic_billings_get.md" format="markdown"/><topicref href="apic_billings_list.md" format="markdown"/><topicref href="apic_billings_sample.md" format="markdown"/><topicref href="apic_billings_update.md" format="markdown"/></topicref>-->
-<!--<topicref href="apic_catalog-gateway-services.md" format="markdown"><topicref href="apic_catalog-gateway-services_clear.md" format="markdown"/><topicref href="apic_catalog-gateway-services_create.md" format="markdown"/><topicref href="apic_catalog-gateway-services_delete.md" format="markdown"/><topicref href="apic_catalog-gateway-services_get.md" format="markdown"/><topicref href="apic_catalog-gateway-services_list.md" format="markdown"/><topicref href="apic_catalog-gateway-services_sample.md" format="markdown"/><topicref href="apic_catalog-gateway-services_update.md" format="markdown"/></topicref>-->
-<!--<topicref href="apic_catalog-oauth-providers.md" format="markdown"><topicref href="apic_catalog-oauth-providers_clear.md" format="markdown"/><topicref href="apic_catalog-oauth-providers_create.md" format="markdown"/><topicref href="apic_catalog-oauth-providers_delete.md" format="markdown"/><topicref href="apic_catalog-oauth-providers_get.md" format="markdown"/><topicref href="apic_catalog-oauth-providers_list.md" format="markdown"/><topicref href="apic_catalog-oauth-providers_sample.md" format="markdown"/><topicref href="apic_catalog-oauth-providers_update.md" format="markdown"/></topicref>-->
-<!--<topicref href="apic_catalog-tls-client-profiles.md" format="markdown"><topicref href="apic_catalog-tls-client-profiles_clear.md" format="markdown"/><topicref href="apic_catalog-tls-client-profiles_create.md" format="markdown"/><topicref href="apic_catalog-tls-client-profiles_delete.md" format="markdown"/><topicref href="apic_catalog-tls-client-profiles_get.md" format="markdown"/><topicref href="apic_catalog-tls-client-profiles_list.md" format="markdown"/><topicref href="apic_catalog-tls-client-profiles_sample.md" format="markdown"/><topicref href="apic_catalog-tls-client-profiles_update.md" format="markdown"/></topicref>-->
-<!--<topicref href="apic_catalog-user-registries.md" format="markdown"><topicref href="apic_catalog-user-registries_clear.md" format="markdown"/><topicref href="apic_catalog-user-registries_create.md" format="markdown"/><topicref href="apic_catalog-user-registries_delete.md" format="markdown"/><topicref href="apic_catalog-user-registries_get.md" format="markdown"/><topicref href="apic_catalog-user-registries_list.md" format="markdown"/></topicref>-->
-<!--<topicref href="apic_docs.md" format="markdown"/>-->
-<!--<topicref href="apic_lookup-cmd.md" format="markdown"/>-->
-<!--<topicref href="apic_recent-publishes.md" format="markdown"><topicref href="apic_recent-publishes_list.md" format="markdown"/></topicref>-->
-<!--<topicref href="apic_task-managers.md" format="markdown"><topicref href="apic_task-managers_create.md" format="markdown"/><topicref href="apic_task-managers_delete.md" format="markdown"/><topicref href="apic_task-managers_get.md" format="markdown"/><topicref href="apic_task-managers_update.md" format="markdown"/></topicref>-->
 </topicref>
 </map>
