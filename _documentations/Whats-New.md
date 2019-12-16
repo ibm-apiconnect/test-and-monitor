@@ -7,7 +7,7 @@ duration: 1 minute
 permalink: whats-new
 type: document
 order: 1
-parent: gettingstarted
+parent: root
 ---
 
 ```
