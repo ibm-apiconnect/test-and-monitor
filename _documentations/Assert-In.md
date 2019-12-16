@@ -19,7 +19,7 @@ Asserts that the element identified by a given expression matches at least one i
 .docsTable .docsTableBorder{border-color:inherit;text-align:left}
 <!-- @media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}} --></style>
 
-## Parameters
+# Parameters
 <div class="docsTable-wrap"><table class="docsTable">
   <tr>
     <th> Name </th>

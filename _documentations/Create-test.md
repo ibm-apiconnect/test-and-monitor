@@ -19,7 +19,7 @@ Creating an API test involves the following three steps:
 
 The following instructions show you how to create a test by using the "HTTP Client".
 
-### What is the HTTP client?
+# What is the HTTP client?
 
 After you log in to IBM API Connect Test and Monitor, you land on the HTTP Client.
 
