@@ -4,7 +4,6 @@ Issues fixed in November 2019:
 
 Issues fixed in October 2019: 
 	HTTP client request error messages now contain root cause information [ux]
-	Upgrade Grails to version 3
 
 Issues fixed in September 2019: 
 	Fixed 6 security issues
