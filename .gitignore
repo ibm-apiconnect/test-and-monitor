@@ -1,0 +1,8 @@
+.DS_Store
+.bundle/
+.vscode/
+.sass-cache/
+vendor/
+node_modules/
+_site/
+.idea/

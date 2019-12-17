@@ -25,23 +25,17 @@
 
 .hero-title {
     font-weight: 700;
-    margin: 1rem 0;
     font-size: 20px;
-    line-height: 80px;
-
-    @include breakpoint(medium){
-        margin: 1rem 0 2rem 0;
-    }
 }
 
 .hero-subtitle {
     font-weight: 300;
-    margin-bottom: 1rem;
     font-size: 12px;
 }
 
 .hero-title,
 .hero-subtitle {
+    margin: 0 0 1rem 0;
     @media (min-width: 641px) and (max-width: 720px){
         font-size: 20px;
     }
@@ -60,28 +54,11 @@
 }
 
 .hero-home {   
-    background-image: url('../images/hero-graphic.svg');
+    background-image: url('../images/hero-home-mobile.svg');
 
     @include breakpoint(medium) {
-        background-image: url('../images/hero-graphic.svg');
+        background-image: url('../images/hero-home.svg');
     }
-
-    // ipad portrait
-    // @media only screen 
-    // and (min-device-width: 768px) 
-    // and (max-device-width: 1024px) 
-    // and (orientation: portrait) 
-    // and (-webkit-min-device-pixel-ratio: 1) {
-    //     background-position: -180px -80px;
-    // }
-
-    // @media only screen 
-    // and (min-device-width: 768px) 
-    // and (max-device-width: 1024px) 
-    // and (orientation: landscape) 
-    // and (-webkit-min-device-pixel-ratio: 1) {
-    //     background-position: -230px -80px;
-    // }
 
     @media (min-width: 641px) and (max-width: 720px){
         background-position: -265px -50px
@@ -108,7 +85,7 @@
     }
     
     @include breakpoint(xxlarge) {
-        background-position: -90px -80px;
+        background-position: 0px -50px;
     }
 }
 
@@ -138,23 +115,31 @@
 .learn,
 .community {
     .hero {
-        background-image: url('../images/hero-graphic.svg'); 
+      background-image: url('../images/hero-learn.svg');
 
-        @include breakpoint(medium){
-            background-image: url('../images/hero-graphic.svg');
-            background-position: -80px -60px;
-        }
+      @include breakpoint(medium){
+          background-position: -80px -60px;
+      }
 
-        @media (min-width: 641px) and (max-width: 862px){
-            background-position: -190px -40px;
-        }
+      @media (min-width: 641px) and (max-width: 862px){
+          background-position: -390px -120px;
+      }
 
-        @include breakpoint(large){
-            background-position: -530px -100px
-        }
+      @include breakpoint(large){
+          background-position: -30px -100px
+      }
 
-        @include breakpoint(xlarge){
-            background-position: -320px -60px
-        }
+      @include breakpoint(xlarge){
+          background-position: 0px -50px
+      }
     }
+}
+
+.hero-cta-buttons {
+  .button {
+    outline: none;
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
 }

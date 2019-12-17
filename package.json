@@ -4,22 +4,20 @@
   "description": "A Gulp file and project generator.",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests to see here, please continue..\"",
+    "build": "gulp",
+    "build:watch": "gulp watch"
   },
   "author": "Quench",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "2.6.5",
-    "gulp": "3.8.11",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "2.1.0",
     "gulp-cache": "0.2.8",
     "gulp-concat": "2.5.2",
-    "gulp-imagemin": "2.2.1",
+    "gulp-imagemin": "^6.0.0",
     "gulp-plumber": "1.0.0",
-    "gulp-rename": "1.2.2",
-    "gulp-sass": "^2.3.2",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "1.2.0"
+    "gulp-sass": "^2.3.2"
   },
   "dependencies": {
     "@ibm/plex": "^1.1.4",

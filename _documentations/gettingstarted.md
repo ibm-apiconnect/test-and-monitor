@@ -13,6 +13,8 @@ parent: root
 
 <!-- add a docs overview with permalink:documentation and then change this in the top menu links -->
 
+[What's new](./whats-new)
+
 IBM API Connect Test and Monitor provides automated, collaborative, and powerful API testing and monitoring, with no code needed.
 
 The product includes the following features:
@@ -30,6 +32,7 @@ The product includes the following features:
 
 
 # Getting started
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/F2148ycD2hk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
 
 To quickly get up and running, see the following pages:
 
