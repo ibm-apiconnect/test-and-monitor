@@ -10,6 +10,8 @@ order: 3
 parent: gettingstarted
 ---
 
+# Running a test
+
 Tests are run from the Composer page of IBM API Connect Test and Monitor.
 
 If you are not on the Composer page, or you want to run a different test, see [Opening a test in the Composer](./open-test-in-composer) for instructions.
@@ -41,6 +43,6 @@ If an Internal Server Error message is displayed during the test, follow the ins
 
 # What to do next
 
-- Next: [Publishing a test](./publish-test)
+- Next: [Publishing a test](Publish-test.md)
 
-- Previous: [Modifying a test](./modify-test)
+- Previous: [Modifying a test](Modify-test.md)

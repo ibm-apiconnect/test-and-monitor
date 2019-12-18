@@ -1,0 +1,2 @@
+assertion_param_level:
+  '| Level | Selection list | No | Select **error** or **warning**. Specifies whether, if the assertion fails, it should be considered an ‘error’ or just a ‘warning.’ A warning does not trigger alerts, such as email or text messages. |  |' 

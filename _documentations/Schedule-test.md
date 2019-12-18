@@ -10,7 +10,9 @@ order: 5
 parent: gettingstarted
 ---
 
-**Note:** You must publish a test before you can schedule it; see [Publishing a test](./publish-test).  
+# Scheduling a test
+
+**Note:** You must publish a test before you can schedule it; see [Publishing a test](Publish-test.md).  
   
 To schedule a test, complete the following steps:
 
@@ -53,4 +55,4 @@ By following our getting started guide, you successfully created, published and 
 - [Deleting a test](./delete-test)
 - [Opening a test in the Composer](./open-test-in-composer)
 
-- Previous topic: [Publishing a test](./publish-test)
+- Previous topic: [Publishing a test](Publish-test.md)

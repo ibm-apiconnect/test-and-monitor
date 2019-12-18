@@ -10,6 +10,8 @@ order: 4
 parent: gettingstarted
 ---
 
+# Publishing a test
+
 After you have completed the configuration of your test, and run it manually to confirm that it works correctly, you can publish the test. You need to publish a test to be able to schedule it to run automatically.  
   
 After you have published a test, you can continue to work on the test in the Composer without affecting the published test, and then publish the test again later to update the published test.  
@@ -38,6 +40,6 @@ To publish a test, complete the following steps:
 
 # What to do next
 
-- Next topic: [Scheduling a test](./schedule-test)
+- Next topic: [Scheduling a test](Schedule-test.md)
 
-- Previous topic: [Running a test](./run-test)
+- Previous topic: [Running a test](Run-test.md)

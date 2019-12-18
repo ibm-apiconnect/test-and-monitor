@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<!DOCTYPE map PUBLIC "-//IBM//DTD DITA IBM Map//EN"
+ "ibm-map.dtd">
+<?Pub Sty _display FontColor="red"?>
+<map activity="learn use" operatingsystem="windows linux" product="SSMNED_5.0.0" xml:lang="en-us">
+<title>Welcome to IBM API Connect</title>
+<topicref format="html" href="getting_started.html" navtitle="Welcome"/>
+<topicref format="ditamap" href="../apic_overview.ditamap" scope="local"/>
+<topicref format="ditamap" href="../tutorials.ditamap" scope="local"/>
+<topicref format="ditamap" href="../api_install.ditamap" scope="local"/>
+<topicref format="ditamap" href="../cmc.ditamap" scope="local"/>
+<topicref format="ditamap" href="../toolkit.ditamap" scope="local"/>
+<topicref format="ditamap" href="../porting.ditamap" scope="local"/>
+<topicref format="ditamap" href="../apionprem.ditamap" scope="local"/>
+<topicref format="ditamap" href="../apicustompolicies.ditamap" scope="local"/>
+<?Pub Caret -2?>
+<topicref format="ditamap" href="../devportal.ditamap" scope="local"/>
+<topicref format="ditamap" href="../reference.ditamap" scope="local"/>
+<topicref format="ditamap" href="../com.ibm.apic.tandm.doc/test_and_monitor.ditamap" scope="local"/>
+</map>
+<?Pub *0000000964?>

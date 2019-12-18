@@ -1,0 +1,132 @@
+<!DOCTYPE html><html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+
+<meta name="dcterms.rights" content="© Copyright IBM Corporation 2019">
+
+
+
+
+
+
+<script>
+    digitalData = {
+      page: {
+        pageInfo: {
+  
+  version: "v18",
+  ibm: {
+  country: "ZZ",
+  type: "CT701"
+  
+         }
+       }
+     }
+   };
+  </script><!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="ibmdita.css">
+<title>Modifying a test</title>
+</head>
+<body><main role="main"><div><article class="nested0" role="article" aria-labelledby="d529e8" id="modifying-a-test"><h1 class="topictitle1" id="d529e8">Modifying a test</h1>
+<div class="body"><p>Use the Composer to update and modify your test. The following sections provide information about the Composer, and how to use it.</p>
+<p><a href="#about-the-composer">About the Composer</a><br><a href="#using-the-editor">Using the editor</a><br><a href="#adding-a-component">Adding a component</a><br><a href="#editing-a-component">Editing a component</a><br><a href="#moving-components">Moving components</a><br><a href="#transforming-a-component">Transforming a component</a><br><a href="#deleting-a-component">Deleting a component</a></p>
+</div>
+</article><article class="topic nested0" role="article" aria-labelledby="d529e53" id="about-the-composer"><h1 class="topictitle1" id="d529e53">About the Composer</h1>
+<div class="body"><p>If you are not on the Composer page, or you want to modify a different test, follow the instructions in <a href="open-test-in-composer">Opening a test in the Composer</a> to find the test that you want to modify, and open it in the Composer.</p>
+<div class="image"><img src="dist/images/composer.png" alt="Image of composer"></div><p>The Composer shows all of the components that make up the test. In our getting started example, the first component is the request to the API endpoint - which in this case is a <code class="ph codeph">GET</code> to <code class="ph codeph">${endpointUrl}</code>. When the test was generated, it extracted the URL that you provided into a variable. To see any variables that were generated, click the <strong>Data Sets</strong> icon <img src="dist/images/icon-data-sets.png" alt="Image of data sets icon"> in the left navigation pane.</p>
+<div class="image"><img src="dist/images/composer-datasets.png" alt="Image of composer datasets"></div><p>After the request line, you will see the assertions and other components, for example <code class="ph codeph">Aeq</code>, <code class="ph codeph">Ai</code>, <code class="ph codeph">Ae</code>, <code class="ph codeph">for each in</code> and so on. For more information about assertion components, see <a href="dist/assertion-components">Assertion components</a>.</p>
+</div>
+</article><article class="topic nested0" role="article" aria-labelledby="d529e112" id="using-the-editor"><h1 class="topictitle1" id="d529e112">Using the editor</h1>
+<div class="body"><p>The test can be edited by using either the code (text) editor, or the visual (graphical) editor. Toggle between these two editors by clicking the <strong>CODE</strong> and <strong>VISUAL</strong> tabs in the upper right of the Composer. The visual editor is the default editor.</p>
+<div class="image"><img src="dist/images/composer-code-visual-links.png" alt="Image of composer code visual links"></div><p>The following instructions describe how to make changes by using the visual editor.</p>
+</div>
+</article><article class="topic nested0" role="article" aria-labelledby="d529e139" id="adding-a-component"><h1 class="topictitle1" id="d529e139">Adding a component</h1>
+<div class="body"><p>You can add a component by using one of the following options:</p>
+<ul><li><p>By clicking the <strong>add component</strong> icon <img src="dist/images/icon-add-component.png" alt="Image of add component icon"> in the upper left of the Composer.</p>
+</li>
+<li><p>By clicking a component at the location where you want to add a new component, then clicking the <strong>menu</strong> icon <img src="dist/images/icon-menu.png" alt="Image of menu icon">, and selecting <strong>Add component before</strong> or <strong>Add component after</strong>, depending on where you want the new component to be positioned.</p>
+</li>
+</ul>
+<p>A list of component types is displayed.</p>
+<div class="image"><img src="dist/images/component-types-dialogue.png" alt="Image of component types dialogue"></div><p>After you've chosen your component type, carry out the following steps to add the component to your test. Note that you can hover over each component to see a description of what that component does.</p>
+<ol><li><p>Click the component type that you want to add.</p>
+</li>
+<li><p>Configure the new component's parameters in the component dialogue box.</p>
+</li>
+<li><p>Click the <strong>Confirm changes</strong> icon <img src="dist/images/icon-check-mark.png" alt="Image of check mark icon"> to apply the changes.</p>
+</li>
+<li><p>If your new component is in the wrong location, you can drag it to the correct location. Note that you can drag any component in your test.</p>
+</li>
+<li><p>Click <strong>Save</strong> to save your changes.</p>
+</li>
+</ol>
+</div>
+</article><article class="topic nested0" role="article" aria-labelledby="d529e215" id="editing-a-component"><h1 class="topictitle1" id="d529e215">Editing a component</h1>
+<div class="body"><p>You can edit a component in any one of the following ways:</p>
+<ol><li><p>Double-click the component to be edited.</p>
+</li>
+<li><p>Click the component, and then click the <strong>Edit component</strong> icon <img src="dist/images/icon-edit-component.png" alt="Image of edit component icon"> in the upper left of the Composer.</p>
+</li>
+<li><p>Click the component, then click the <strong>menu</strong> icon <img src="dist/images/icon-menu.png" alt="Image of menu icon"> and select <strong>Edit component</strong>.</p>
+</li>
+<li><p>Click the component, then click <strong>Edit</strong> on the right of the component pane.</p>
+</li>
+</ol>
+<p>The edit dialogue box is displayed. Each component dialogue box will look different, as they all have different sets of parameters.</p>
+<p>In the edit dialogue box, you can make the following changes:</p>
+<ul><li><p>Modify any of the component's parameters.</p>
+</li>
+<li><p>Clone the component by clicking the <strong>Clone component</strong> icon <img src="dist/images/icon-clone-component.png" alt="Image of clone component icon">.</p>
+</li>
+<li><p>Delete the component by clicking the <strong>Remove component</strong> icon <img src="dist/images/icon-remove-component.png" alt="Image of remove component icon">.</p>
+</li>
+<li><p>Cancel changes by clicking the <strong>Cancel changes</strong> icon <img src="dist/images/icon-cancel-changes.png" alt="Image of cancel changes icon">.</p>
+</li>
+<li><p>Apply changes by clicking the <strong>Confirm changes</strong> icon <img src="dist/images/icon-confirm-changes.png" alt="Image of confirm changes icon">.</p>
+</li>
+</ul>
+<p>Click <strong>Save</strong> to save your changes.</p>
+</div>
+</article><article class="topic nested0" role="article" aria-labelledby="d529e317" id="moving-components"><h1 class="topictitle1" id="d529e317">Moving components</h1>
+<div class="body"><p>Simply drag-and-drop any component from one position within the test to another position in the visual editor.</p>
+<p>Remember to click <strong>Save</strong> to save your changes.</p>
+</div>
+</article><article class="topic nested0" role="article" aria-labelledby="d529e338" id="transforming-a-component"><h1 class="topictitle1" id="d529e338">Transforming a component</h1>
+<div class="body"><p>You can transform a request component to be a different type of request, and an assertion component to be a different type of assertion.</p>
+<ol><li><p>Click the request or assertion component to be transformed, then click the <strong>Transform component</strong> icon <img src="dist/images/icon-transform-component.png" alt="Image of transform component icon"> in the upper left of the Composer.</p>
+</li>
+<li><p>Select the type of request or assertion that you require.</p>
+</li>
+<li><p>Complete the edit dialogue box for the new type of component.</p>
+</li>
+<li><p>Apply the changes by clicking the <strong>Confirm changes</strong> icon <img src="dist/images/icon-confirm-changes.png" alt="Image of confirm changes icon">.</p>
+</li>
+<li><p>Click <strong>Save</strong> to save your changes.</p>
+</li>
+</ol>
+</div>
+</article><article class="topic nested0" role="article" aria-labelledby="d529e387" id="deleting-a-component"><h1 class="topictitle1" id="d529e387">Deleting a component</h1>
+<div class="body"><p>You can delete a component in any one of the following ways:</p>
+<ul><li><p>Click the component to be deleted, and click the <strong>Remove selected component</strong> icon <img src="dist/images/icon-remove-component.png" alt="Image of remove selected component icon"> in the upper left of the Composer.</p>
+<ul><li><p>This technique can also be used to delete a block of components. Click the first component in the block, and press the shift key while clicking the last component in the block. Then click the <strong>Remove selected component</strong> icon <img src="dist/images/icon-remove-component.png" alt="Image of remove selected component icon">.</p>
+</li>
+</ul>
+</li>
+<li><p>Click the component to be deleted, then click the <strong>menu</strong> icon <img src="dist/images/icon-menu.png" alt="Image of menu icon">, and select <strong>Remove component</strong>.</p>
+</li>
+<li><p>Click the component to be deleted, then click <strong>Edit</strong> on the right of the component pane, and then click the <strong>Remove component</strong> icon <img src="dist/images/icon-remove-component.png" alt="Image of remove component icon">.</p>
+</li>
+</ul>
+<p>Remember to click <strong>Save</strong> to save your changes.</p>
+</div>
+</article><article class="topic nested0" role="article" aria-labelledby="d529e456" id="what-to-do-next"><h1 class="topictitle1" id="d529e456">What to do next</h1>
+<div class="body"><ul><li><p>Next topic: <a href="Run-test.html">Running a test</a></p>
+</li>
+<li><p>Previous topic: <a href="Create-test.html">Creating a test</a></p>
+</li>
+</ul>
+</div>
+</article></div></main></body></html>

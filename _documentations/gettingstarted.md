@@ -11,6 +11,8 @@ order: 10
 parent: root
 ---
 
+# IBM API Connect Test and Monitor
+
 <!-- add a docs overview with permalink:documentation and then change this in the top menu links -->
 
 IBM API Connect Test and Monitor provides automated, collaborative, and powerful API testing and monitoring, with no code needed.
@@ -28,15 +30,16 @@ The product includes the following features:
 - Automated generation and scheduling of tests.
   - Generate tests automatically and schedule them to run as often you choose. Easily integrate into your CI/CD pipeline to execute tests as part of your deployment.
 
-
+<!--
 # Getting started
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/F2148ycD2hk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+-->
 
 To quickly get up and running, see the following pages:
 
-1. [Creating a test](./create-test)
-1. [Modifying a test](./modify-test)
-1. [Running a test](./run-test)
+1. [Creating a test](Create-test.md)
+1. [Modifying a test](Modify-test.md)
+1. [Running a test](Run-test.md)
 1. [Publishing a test](./publish-test)
 1. [Scheduling a test](./schedule-test)
 

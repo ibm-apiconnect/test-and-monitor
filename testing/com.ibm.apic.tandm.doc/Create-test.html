@@ -1,0 +1,136 @@
+<!DOCTYPE html><html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+
+<meta name="dcterms.rights" content="© Copyright IBM Corporation 2019">
+
+
+
+
+
+
+<script>
+    digitalData = {
+      page: {
+        pageInfo: {
+  
+  version: "v18",
+  ibm: {
+  country: "ZZ",
+  type: "CT701"
+  
+         }
+       }
+     }
+   };
+  </script><!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="ibmdita.css">
+<title>Creating a test</title>
+</head>
+<body><main role="main"><div><article class="nested0" role="article" aria-labelledby="d1769e8" id="creating-a-test"><h1 class="topictitle1" id="d1769e8">Creating a test</h1>
+<div class="body"><p>Creating an API test involves the following three steps:</p>
+<ol><li><p>Creating a request.</p>
+</li>
+<li><p>Sending the request to an API endpoint.</p>
+</li>
+<li><p>Generating a test from the response that's returned from the endpoint.</p>
+</li>
+</ol>
+<p>The following instructions show you how to create a test by using the "HTTP Client".</p>
+</div>
+</article><article class="topic nested0" role="article" aria-labelledby="d1769e36" id="what-is-the-http-client"><h1 class="topictitle1" id="d1769e36">What is the HTTP client?</h1>
+<div class="body"><p>After you log in to IBM API Connect Test and Monitor, you land on the HTTP Client.</p>
+<div class="image"><img src="dist/images/http-client-page.png" alt="Image of http client page"></div><p>To reach the HTTP Client from any other page, click <strong>HTTP Client</strong> in the menu bar at the top of the page.</p>
+</div>
+</article><article class="topic nested0" role="article" aria-labelledby="d1769e60" id="step-1-creating-a-request"><h1 class="topictitle1" id="d1769e60">Step 1: Creating a request</h1>
+<div class="body"><p>The HTTP Client page contains the following three sections:</p>
+<ol><li><p>The top section is where you specify the request type, the URL, and any other parameters that are needed. It's also where the <strong>Send</strong> and <strong>Clear</strong> buttons are located.</p>
+</li>
+<li><p>The center section is where you define the request headers and body.</p>
+</li>
+<li><p>The bottom section is where the headers and body of the response appear after you've sent the request. You don't need to do anything in this section.</p>
+</li>
+</ol>
+<p>The following instructions use <code class="ph codeph">GET https://us-east.apitest.apiconnect.ibmcloud.com/app/api/examples/retail/products</code> for illustration purposes, which is a built-in API endpoint example. This example requires no parameters to be added to the URL, and requires no request headers or body to be supplied.</p>
+</div>
+<article class="topic nested1" role="article" aria-labelledby="d1769e97" id="set-the-request-type"><h2 class="topictitle2" id="d1769e97">Set the request type</h2>
+<div class="body"><p>In the top section of the HTTP Client, select the type of request that you want from the drop-down menu to the left of the <strong>Request url</strong> field.</p>
+<div class="image"><img src="dist/images/http-client-request-type.png" alt="Image of http client request link"></div><p>The following options are available:</p>
+<ul><li><p><code class="ph codeph">GET</code></p>
+</li>
+<li><p><code class="ph codeph">POST</code></p>
+</li>
+<li><p><code class="ph codeph">PUT</code></p>
+</li>
+<li><p><code class="ph codeph">PATCH</code></p>
+</li>
+<li><p><code class="ph codeph">DELETE</code></p>
+</li>
+</ul>
+<p>For our example, select <code class="ph codeph">GET</code>.</p>
+</div>
+</article><article class="topic nested1" role="article" aria-labelledby="d1769e137" id="set-the-api-endpoint-url"><h2 class="topictitle2" id="d1769e137">Set the API endpoint URL</h2>
+<div class="body"><p>In the top section, complete the <strong>Request url</strong> field with the API endpoint URL. For our example, enter: <code class="ph codeph">https://us-east.apitest.apiconnect.ibmcloud.com/app/api/examples/retail/products</code>.</p>
+<div class="image"><img src="dist/images/http-client-request-url.png" alt="Image of http client request url"></div></div>
+</article><article class="topic nested1" role="article" aria-labelledby="d1769e152" id="add-parameters-to-the-url"><h2 class="topictitle2" id="d1769e152">Add parameters to the URL</h2>
+<div class="body"><p>If you are using a different API endpoint from our example, and it requires one or more parameters, click <strong>Params +</strong> next to the <strong>Request url</strong> field. A parameter line is added below the URL that you can edit.</p>
+<div class="image"><img src="dist/images/http-client-request-params.png" alt="Image of http client request params"></div><p>Enter a parameter as a key-value pair.</p>
+<p>To add more parameters, click the <strong>add</strong> icon <img src="dist/images/icon-add.png" alt="Image of add icon"> next to any defined parameter.</p>
+<p>To remove a parameter, click the <strong>delete</strong> icon <img src="dist/images/icon-delete.png" alt="Image of delete icon"> next to the parameter.</p>
+</div>
+</article><article class="topic nested1" role="article" aria-labelledby="d1769e187" id="configure-the-request-headers"><h2 class="topictitle2" id="d1769e187">Configure the request headers</h2>
+<div class="body"><p>In the center section of the HTTP Client, select the <strong>Headers</strong> tab. If you're using our example, you don't need to supply any headers.</p>
+<div class="image"><img src="dist/images/http-client-request-headers.png" alt="Image of http client request headers"></div><p>Define a header as key-value pair.</p>
+<p>To add more headers, click the <strong>add</strong> icon <img src="dist/images/icon-add.png" alt="Image of add icon"> next to any defined header.</p>
+<p>To remove a header, click the <strong>delete</strong> icon <img src="dist/images/icon-delete.png" alt="Image of delete icon"> next to the header.</p>
+</div>
+</article><article class="topic nested1" role="article" aria-labelledby="d1769e219" id="configure-the-request-body"><h2 class="topictitle2" id="d1769e219">Configure the request body</h2>
+<div class="body"><p>In the center section of the HTTP Client, select the <strong>Body</strong> tab. This tab is not available if the request type is <code class="ph codeph">GET</code>, so you don't need to complete this section if you're following our example.</p>
+<p>Set the body type to either <code class="ph codeph">URL Encoded</code> or <code class="ph codeph">Raw</code>.</p>
+<p>If you set the body type to <code class="ph codeph">URL Encoded</code>, you must provide one or more key-value pairs.</p>
+<ul><li><p>To add more key-value pairs to the body, click the <strong>add</strong> icon <img src="dist/images/icon-add.png" alt="Image of add icon"> next to any defined key-value pair.</p>
+</li>
+<li><p>To remove a key-value pair, click the <strong>delete</strong> icon <img src="dist/images/icon-delete.png" alt="Image of delete icon"> next to the key-value pair.</p>
+</li>
+</ul>
+<p>If you set the body type to <code class="ph codeph">Raw</code>, you must complete the following actions:</p>
+<ul><li><p>Select the content type from the content type drop-down menu. The following options are available:</p>
+<ul><li><p><code class="ph codeph">application/x-www-form-urlencoded</code></p>
+</li>
+<li><p><code class="ph codeph">application/json</code></p>
+</li>
+<li><p><code class="ph codeph">text/xml</code></p>
+</li>
+<li><p><code class="ph codeph">text/plain</code></p>
+</li>
+</ul>
+</li>
+<li><p>Complete the request body in the text box under the body type selection.</p>
+</li>
+</ul>
+</div>
+</article></article><article class="topic nested0" role="article" aria-labelledby="d1769e294" id="step-2-sending-the-request"><h1 class="topictitle1" id="d1769e294">Step 2: Sending the request</h1>
+<div class="body"><p>Click <strong>Send</strong> in the top section of the HTTP Client.</p>
+<div class="image"><img src="dist/images/http-client-request-send-button.png" alt="Image of http client request send button"></div><p>The response from the endpoint is displayed in the bottom section of the page. You can examine the returned headers and body by clicking the <strong>Headers</strong> and <strong>Body</strong> tabs in the response section.</p>
+<div class="image"><img src="dist/images/http-client-response-headers.png" alt="Image of http client response headers"></div></div>
+</article><article class="topic nested0" role="article" aria-labelledby="d1769e327" id="step-3-generating-a-test"><h1 class="topictitle1" id="d1769e327">Step 3: Generating a test</h1>
+<div class="body"><p>Now that you've sent a request and received the response, you can generate the test.</p>
+<p>Click <strong>Generate Test</strong> in the top section of the HTTP Client.</p>
+<div class="image"><img src="dist/images/http-client-generate-test-button.png" alt="Image of http client generate test button"></div><p>Enter a test name.</p>
+<div class="image"><img src="dist/images/test-name-textbox.png" alt="Image of test name"></div><p>From the "Save to Project" drop-down menu, select a project name, or select <strong>Create new project</strong> to create your own project.</p>
+<div class="image"><img src="dist/images/select-project-dropdown.png" alt="Image of select project dropdown"></div><p>If you selected <strong>Create new project</strong>, enter a name for the project.</p>
+<div class="image"><img src="dist/images/project-name-textbox.png" alt="Image of project name textbox"></div><p>Click the <strong>confirm</strong> icon <img src="dist/images/icon-check-mark.png" alt="Image of check mark icon"> to save the test and start the test generation.</p>
+<div class="image"><img src="dist/images/save-test-button.png" alt="Image of save test button"></div><p>After generation is complete, the "All set!" page is displayed. This page confirms the creation of your generated test.</p>
+<p>Click <strong>Close</strong> to continue.</p>
+<div class="image"><img src="dist/images/all-set.png" alt="Image of all set"></div><p>You are now in the test editor, called the Composer. In the Composer you can edit and run the test.</p>
+<p><img src="dist/images/composer.png" alt="Image of composer">.</p>
+</div>
+</article><article class="topic nested0" role="article" aria-labelledby="d1769e402" id="what-to-do-next"><h1 class="topictitle1" id="d1769e402">What to do next</h1>
+<div class="body"><ul><li><p>Next topic: <a href="Modify-test.html">Modifying a test</a></p>
+</li>
+</ul>
+</div>
+</article></div></main></body></html>

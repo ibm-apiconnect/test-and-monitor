@@ -1,0 +1,12 @@
+common.operation=transform
+common.input.type=gsa
+common.input.path=/gsa/pokgsa/projects/a/ahe01_kc/projects/wwwtest/content/knwctr/aim/apiconnect_test/dcs_build_area/test_and_monitor/tandm.zip
+common.input.file=test_and_monitor.ditamap
+common.output.type=gsa
+common.output.path=/gsa/pokgsa/projects/a/ahe01_kc/projects/wwwtest/content/knwctr/aim/apiconnect_test/dcs_build_area/test_and_monitor
+transform.output.type=ibmhtml5
+ditaot.args.gen.task.lbl=YES
+ditaot.args.draft=yes
+ditaot.output.zipname.ibmhtml5=com.ibm.apic.tandm.doc.jar
+accessibility.policy=IBM_Accessibility_WCAG21
+accessibility.level=violation,potentialviolation,recommendation,potentialrecommendation,manual

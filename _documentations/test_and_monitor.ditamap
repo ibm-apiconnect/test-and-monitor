@@ -4,24 +4,11 @@
 <?Pub Sty _display FontColor="red"?>
 <map title="Test and Monitor" xml:lang="en-us">
 <topicref href="gettingstarted.md" format="markdown" locktitle="yes" linking="none">
-<topicref href="gettingstarted.md" format="markdown">
 <topicref href="Create-test.md" format="markdown"/>
 <topicref href="Modify-test.md" format="markdown"/>
 <topicref href="Run-test.md" format="markdown"/>
 <topicref href="Publish-test.md" format="markdown"/>
 <topicref href="Schedule-test.md" format="markdown"/>
-</topicref>
-<topicref href="Assertion-Components.md" format="markdown">
-<topicref href="Assert-Compares.md" format="markdown"/>
-<topicref href="Assert-Contains.md" format="markdown"/>
-<topicref href="Assert-Equals.md" format="markdown"/>
-<topicref href="Assert-Exists.md" format="markdown"/>
-<topicref href="Assert-Greater.md" format="markdown"/>
-<topicref href="Assert-In.md" format="markdown"/>
-<topicref href="Assert-Is.md" format="markdown"/>
-<topicref href="Assert-Less.md" format="markdown"/>
-<topicref href="Assert-Matches.md" format="markdown"/>
-</topicref>
 <topicref href="Security.md" format="markdown">
 <topicref href="storing-sensitive-data.md" format="markdown"/>
 </topicref>
@@ -29,6 +16,9 @@
 <topicref href="Delete-project.md" format="markdown"/>
 <topicref href="Delete-test.md" format="markdown"/>
 <topicref href="Open-test-in-Composer.md" format="markdown"/>
+</topicref>
+<topicref href="Assertion-Components.md" format="markdown">
+<topicref href="Assert-Compares.md" format="markdown"/>
 </topicref>
 </topicref>
 </map>

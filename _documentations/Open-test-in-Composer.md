@@ -10,9 +10,13 @@ order: 3
 parent: additional-tasks
 ---
 
+# Opening a test in the Composer
+
 To open a test in the Composer, complete the following steps:  
   
-{% include open_project_page.md %}
+1. Click your test organization name in the menu bar to open your test organization project page.
+  
+    ![Image of test organization name](./dist/images/test-org-name-in-menu-bar.png)
   
 1. On the projects page, locate the project you want to work with and ensure that it contains tests by confirming that the displayed **Tests** count is not zero.
   

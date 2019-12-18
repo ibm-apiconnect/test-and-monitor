@@ -10,7 +10,7 @@ order: 1
 parent: gettingstarted
 ---
 
-
+# Creating a test
 
 Creating an API test involves the following three steps:
 1. Creating a request.
@@ -147,4 +147,4 @@ You are now in the test editor, called the Composer. In the Composer you can edi
 
 # What to do next
 
-- Next topic: [Modifying a test](./modify-test)
+- Next topic: [Modifying a test](Modify-test.md)

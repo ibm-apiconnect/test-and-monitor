@@ -10,9 +10,11 @@ order: 20
 parent: root
 ---
 
+# Assertion componenents
+
 IBM API Connect Test and Monitor supports the following assertion types:  
   
- * [Assert Compares](./assert-compares)  
+ * [Assert Compares](Assert-Compares.md)  
  Asserts that two elements are equivalent in some way.
  
  * [Assert Contains](./assert-contains)  

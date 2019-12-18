@@ -10,6 +10,8 @@ order: 2
 parent: gettingstarted
 ---
 
+# Modifying a test
+
 Use the Composer to update and modify your test. The following sections provide information about the Composer, and how to use it.  
   
 [About the Composer](#about-the-composer)  
@@ -27,7 +29,7 @@ If you are not on the Composer page, or you want to modify a different test, fol
 
 ![Image of composer](./dist/images/composer.png)
 
-The Composer shows all of the components that make up the test. In our getting started example, the first component is the request to the API endpoint - which in this case is a `GET` to `${endpointUrl}`. When the test was generated, it extracted the URL that you provided into a variable. To see any variables that were generated, click the **Data Sets** icon ![Image of data sets icon](./images/icon-data-sets.png) in the left navigation pane.
+The Composer shows all of the components that make up the test. In our getting started example, the first component is the request to the API endpoint - which in this case is a `GET` to `${endpointUrl}`. When the test was generated, it extracted the URL that you provided into a variable. To see any variables that were generated, click the **Data Sets** icon ![Image of data sets icon](./dist/images/icon-data-sets.png) in the left navigation pane.
 
 ![Image of composer datasets](./dist/images/composer-datasets.png)
 
@@ -127,6 +129,6 @@ Remember to click **Save** to save your changes.
 
 # What to do next
 
-- Next topic: [Running a test](./run-test)
+- Next topic: [Running a test](Run-test.md)
 
-- Previous topic: [Creating a test](./create-test)
+- Previous topic: [Creating a test](Create-test.md)

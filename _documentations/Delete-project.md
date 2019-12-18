@@ -10,9 +10,13 @@ order: 1
 parent: additional-tasks
 ---
 
+# Deleting a project
+
 To delete a project, complete the following steps:  
   
-{% include open_project_page.md %}
+1. Click your test organization name in the menu bar to open your test organization project page.
+  
+    ![Image of test organization name](./dist/images/test-org-name-in-menu-bar.png) 
     
 1. On the projects page, locate the project you want to delete and determine whether it contains any tests by observing the displayed **Tests** count.
   

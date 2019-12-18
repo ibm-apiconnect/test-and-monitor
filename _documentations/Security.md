@@ -10,6 +10,8 @@ order: 20
 parent: root
 ---
 
+# Security
+
 It is important to be aware of potential security implications when using IBM API Connect Test and Monitor:
   
-- [Storing Sensitive Data](./storing-sensitive-data)
+- [Storing sensitive data](storing-sensitive-data.md)

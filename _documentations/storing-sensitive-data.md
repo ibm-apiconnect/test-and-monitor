@@ -10,6 +10,8 @@ order: 2
 parent: security
 ---
 
+# Storing sensitive data
+
 When using IBM API Connect Test and Monitor, it is always helpful to remember:
 
 - Before making a request to any endpoint, it is important to pause and think about the data supplied in the request and the data expected in the response. If the data contains sensitive data such as authentication credentials or any form of personal data, then we **strongly** discourage you from making that request.
